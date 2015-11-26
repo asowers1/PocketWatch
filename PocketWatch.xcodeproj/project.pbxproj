@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A9C1B9E1A1BAC348A3613EA /* Pods_PocketWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3FC960A519D8152C00E69B /* Pods_PocketWatch.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4927120F1BB73A990080997C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4927120E1BB73A990080997C /* main.m */; };
 		492712121BB73A990080997C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 492712111BB73A990080997C /* AppDelegate.m */; };
-		492712151BB73A990080997C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492712141BB73A990080997C /* ViewController.m */; };
 		492712181BB73A990080997C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492712161BB73A990080997C /* Main.storyboard */; };
 		4927121A1BB73A990080997C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492712191BB73A990080997C /* Assets.xcassets */; };
 		4927121D1BB73A990080997C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4927121B1BB73A990080997C /* LaunchScreen.storyboard */; };
 		492712281BB73A990080997C /* PocketWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 492712271BB73A990080997C /* PocketWatchTests.m */; };
 		492712331BB73A990080997C /* PocketWatchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 492712321BB73A990080997C /* PocketWatchUITests.m */; };
-		C7B4963369DA0F98DD202185 /* libPods-PocketWatchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CE9773FD698134531D492E /* libPods-PocketWatchTests.a */; };
-		D9D2D22FF7D6AA755A2D6220 /* libPods-PocketWatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5963EF4FAA4ACF3B3D52B14C /* libPods-PocketWatch.a */; };
-		FDDDD190E91984671E3E673D /* libPods-PocketWatchUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C944FAA854512EB4BE4ABED1 /* libPods-PocketWatchUITests.a */; };
+		499B9ABD1BC2329E007772BE /* PWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 499B9ABC1BC2329E007772BE /* PWLoginViewController.m */; };
+		49A9D83F1C02B8C400BE3B78 /* PWPocketWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A9D83E1C02B8C400BE3B78 /* PWPocketWrapper.m */; };
+		49D5FBF21BBB8067007B21F9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D5FBF11BBB8067007B21F9 /* Security.framework */; };
+		5B06C91C8A51A94C731BC302 /* Pods_PocketWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776FC0E921117F5CE12F96DF /* Pods_PocketWatchTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		663507A7677A6E9CFD9256B5 /* Pods_PocketWatchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6379310FF3424976C1AF6DB /* Pods_PocketWatchUITests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +48,6 @@
 		4927120E1BB73A990080997C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		492712101BB73A990080997C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		492712111BB73A990080997C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		492712131BB73A990080997C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		492712141BB73A990080997C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		492712171BB73A990080997C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		492712191BB73A990080997C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4927121C1BB73A990080997C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,10 +58,15 @@
 		4927122E1BB73A990080997C /* PocketWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		492712321BB73A990080997C /* PocketWatchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketWatchUITests.m; sourceTree = "<group>"; };
 		492712341BB73A990080997C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5963EF4FAA4ACF3B3D52B14C /* libPods-PocketWatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PocketWatch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		66CE9773FD698134531D492E /* libPods-PocketWatchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PocketWatchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		499B9ABB1BC2329E007772BE /* PWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWLoginViewController.h; sourceTree = "<group>"; };
+		499B9ABC1BC2329E007772BE /* PWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWLoginViewController.m; sourceTree = "<group>"; };
+		49A9D83D1C02B8C400BE3B78 /* PWPocketWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPocketWrapper.h; sourceTree = "<group>"; };
+		49A9D83E1C02B8C400BE3B78 /* PWPocketWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPocketWrapper.m; sourceTree = "<group>"; };
+		49D5FBF11BBB8067007B21F9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		776FC0E921117F5CE12F96DF /* Pods_PocketWatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketWatchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3FC960A519D8152C00E69B /* Pods_PocketWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0025CB2BC51F4ECCB190867 /* Pods-PocketWatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketWatchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocketWatchUITests/Pods-PocketWatchUITests.release.xcconfig"; sourceTree = "<group>"; };
-		C944FAA854512EB4BE4ABED1 /* libPods-PocketWatchUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PocketWatchUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6379310FF3424976C1AF6DB /* Pods_PocketWatchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketWatchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB836CB2B9F4B7EB2C6CD932 /* Pods-PocketWatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketWatchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocketWatchTests/Pods-PocketWatchTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9D2D22FF7D6AA755A2D6220 /* libPods-PocketWatch.a in Frameworks */,
+				49D5FBF21BBB8067007B21F9 /* Security.framework in Frameworks */,
+				1A9C1B9E1A1BAC348A3613EA /* Pods_PocketWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7B4963369DA0F98DD202185 /* libPods-PocketWatchTests.a in Frameworks */,
+				5B06C91C8A51A94C731BC302 /* Pods_PocketWatchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDDDD190E91984671E3E673D /* libPods-PocketWatchUITests.a in Frameworks */,
+				663507A7677A6E9CFD9256B5 /* Pods_PocketWatchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,14 +124,11 @@
 		4927120C1BB73A990080997C /* PocketWatch */ = {
 			isa = PBXGroup;
 			children = (
-				492712101BB73A990080997C /* AppDelegate.h */,
-				492712111BB73A990080997C /* AppDelegate.m */,
-				492712131BB73A990080997C /* ViewController.h */,
-				492712141BB73A990080997C /* ViewController.m */,
-				492712161BB73A990080997C /* Main.storyboard */,
-				492712191BB73A990080997C /* Assets.xcassets */,
-				4927121B1BB73A990080997C /* LaunchScreen.storyboard */,
-				4927121E1BB73A990080997C /* Info.plist */,
+				49D5FBF71BBB8588007B21F9 /* ViewControllers */,
+				49D5FBF61BBB857F007B21F9 /* Views */,
+				49D5FBF51BBB8577007B21F9 /* Model Controllers */,
+				49D5FBF41BBB856D007B21F9 /* Models */,
+				49D5FBF31BBB8552007B21F9 /* Resources */,
 				4927120D1BB73A990080997C /* Supporting Files */,
 			);
 			path = PocketWatch;
@@ -157,12 +160,58 @@
 			path = PocketWatchUITests;
 			sourceTree = "<group>";
 		};
+		49D5FBF31BBB8552007B21F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				492712101BB73A990080997C /* AppDelegate.h */,
+				492712111BB73A990080997C /* AppDelegate.m */,
+				492712191BB73A990080997C /* Assets.xcassets */,
+				4927121E1BB73A990080997C /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		49D5FBF41BBB856D007B21F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		49D5FBF51BBB8577007B21F9 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49A9D83D1C02B8C400BE3B78 /* PWPocketWrapper.h */,
+				49A9D83E1C02B8C400BE3B78 /* PWPocketWrapper.m */,
+			);
+			name = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		49D5FBF61BBB857F007B21F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		49D5FBF71BBB8588007B21F9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				492712161BB73A990080997C /* Main.storyboard */,
+				4927121B1BB73A990080997C /* LaunchScreen.storyboard */,
+				499B9ABB1BC2329E007772BE /* PWLoginViewController.h */,
+				499B9ABC1BC2329E007772BE /* PWLoginViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		9CFD4D0379C4D1250D939740 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5963EF4FAA4ACF3B3D52B14C /* libPods-PocketWatch.a */,
-				66CE9773FD698134531D492E /* libPods-PocketWatchTests.a */,
-				C944FAA854512EB4BE4ABED1 /* libPods-PocketWatchUITests.a */,
+				49D5FBF11BBB8067007B21F9 /* Security.framework */,
+				9F3FC960A519D8152C00E69B /* Pods_PocketWatch.framework */,
+				776FC0E921117F5CE12F96DF /* Pods_PocketWatchTests.framework */,
+				D6379310FF3424976C1AF6DB /* Pods_PocketWatchUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,6 +241,8 @@
 				492712071BB73A990080997C /* Frameworks */,
 				492712081BB73A990080997C /* Resources */,
 				ABC4DB79D2B4D7DB579221E2 /* Copy Pods Resources */,
+				E9E8B668A48C2E1A118B8DD4 /* Embed Pods Frameworks */,
+				49FB40F91C066F1300613472 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -211,6 +262,7 @@
 				492712201BB73A990080997C /* Frameworks */,
 				492712211BB73A990080997C /* Resources */,
 				CDDD1709A5449F15A9A6B83B /* Copy Pods Resources */,
+				0203E3E60DED336EB2653E15 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +300,7 @@
 		492712021BB73A990080997C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PW;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Andrew Sowers";
 				TargetAttributes = {
@@ -312,6 +365,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0203E3E60DED336EB2653E15 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketWatchTests/Pods-PocketWatchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49FB40F91C066F1300613472 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" d59bad9f244075e9a950f062e0f261ba4bd8b4f8 c40131b9f75b7c53f24e69ca8d0ef533d11bea97565574a4ec31ecc7a76882c8";
+		};
 		80ABD5DC5B95B3F55F7C0715 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,6 +484,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		E9E8B668A48C2E1A118B8DD4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketWatch/Pods-PocketWatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -409,8 +506,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492712151BB73A990080997C /* ViewController.m in Sources */,
 				492712121BB73A990080997C /* AppDelegate.m in Sources */,
+				499B9ABD1BC2329E007772BE /* PWLoginViewController.m in Sources */,
+				49A9D83F1C02B8C400BE3B78 /* PWPocketWrapper.m in Sources */,
 				4927120F1BB73A990080997C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -551,6 +649,7 @@
 			baseConfigurationReference = 3BE6CD44FF5359D85FFE46B9 /* Pods-PocketWatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PocketWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.PocketWatch;
@@ -563,6 +662,7 @@
 			baseConfigurationReference = 3AF973394C626F05172AFC57 /* Pods-PocketWatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PocketWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.PocketWatch;

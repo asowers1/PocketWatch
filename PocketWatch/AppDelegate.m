@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "PocketAPI.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
 
 @interface AppDelegate ()
 
@@ -16,8 +19,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  // Override point for customization after application launch.
+  [[PocketAPI sharedAPI] setConsumerKey:@"46328-b312c774669903e37a808166"];
+  [Fabric with:@[[Crashlytics class]]];
+
   return YES;
+}
+
+-(BOOL)application:(UIApplication *)application
+           openURL:(NSURL *)url
+ sourceApplication:(NSString *)sourceApplication
+        annotation:(id)annotation{
+  
+  if([[PocketAPI sharedAPI] handleOpenURL:url]){
+    return YES;
+  }else{
+    // if you handle your own custom url-schemes, do it here
+    return NO;
+  }
+  
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

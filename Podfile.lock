@@ -1,10 +1,31 @@
 PODS:
+  - Crashlytics (3.4.1):
+    - Fabric (~> 1.6.0)
+  - Fabric (1.6.1)
   - PocketAPI (1.0.3)
+  - Realm (0.95.2):
+    - Realm/Headers (= 0.95.2)
+  - Realm/Headers (0.95.2)
+  - RealmSwift (0.95.2):
+    - Realm (= 0.95.2)
+  - SwiftHTTP (1.0.2)
+  - Taplytics (2.7.20)
 
 DEPENDENCIES:
+  - Crashlytics
+  - Fabric
   - PocketAPI
+  - RealmSwift
+  - SwiftHTTP (~> 1.0.0)
+  - Taplytics
 
 SPEC CHECKSUMS:
+  Crashlytics: 41574a245bc6ae10c55d57f385ebd2004e5bee05
+  Fabric: bf0ceb04e7c924090efc5f8c55e4fbcca189e0a0
   PocketAPI: 561fd4f428a38a4662c5837247c85f9962393f01
+  Realm: 4c026902041bb39c4bd083ebc5e88f4f17973d72
+  RealmSwift: ac7822fe7ab8dca7fa979f4d576793b111d6dce1
+  SwiftHTTP: 6d8ca031a9ce613a01e8f18b497503887b0b50c0
+  Taplytics: 97a0340d542fa7375a6bad3db39550e81c498043
 
 COCOAPODS: 0.38.2
