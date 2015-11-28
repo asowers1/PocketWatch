@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
+#import "PocketWatch-Swift.h"
 
 @interface PWPocketWrapper : MKAnnotationView
+
++ (id)sharedWrapper;
+- (void)login;
 
 @end

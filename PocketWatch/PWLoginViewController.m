@@ -8,6 +8,7 @@
 
 #import "PWLoginViewController.h"
 #import "PocketAPI.h"
+#import "PWPocketWrapper.h"
 
 @interface PWLoginViewController ()
 
@@ -49,42 +50,7 @@
 #pragma mark - actions
 
 - (IBAction)loginTapped:(id)sender {
-    [[PocketAPI sharedAPI] loginWithHandler: ^(PocketAPI *API, NSError *error){
-        if (error != nil)
-        {
-            // There was an error when authorizing the user.
-            // The most common error is that the user denied access to your application.
-            // The error object will contain a human readable error message that you
-            // should display to the user. Ex: Show an UIAlertView with the message
-            // from error.localizedDescription
-            
-        }
-        else
-        {
-            // The user logged in successfully, your app can now make requests.
-            // [API username] will return the logged-in user’s username
-            // and API.loggedIn will == YES
-
-            
-            
-            NSString *apiMethod = @"get";
-            PocketAPIHTTPMethod httpMethod = PocketAPIHTTPMethodGET; // usually PocketAPIHTTPMethodPOST
-            NSDictionary *arguments = nil;
-            
-            [[PocketAPI sharedAPI] callAPIMethod:apiMethod
-                                  withHTTPMethod:httpMethod
-                                       arguments:arguments
-                                         handler: ^(PocketAPI *api, NSString *apiMethod,
-                                                    NSDictionary *response, NSError *error){
-                                             // handle the response here
-                                             if (error) {
-                                                 NSLog(@"error: %@",error.localizedDescription);
-                                             } else {
-                                                 NSLog(@"%@",response);
-                                             }
-                                         }];
-        }
-    }];
+    [[PWPocketWrapper sharedWrapper] login];
 }
 
 /*
