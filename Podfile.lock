@@ -1,8 +1,158 @@
 PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - Crashlytics (3.4.1):
     - Fabric (~> 1.6.0)
   - Fabric (1.6.1)
+  - FZActionSheet (0.0.9):
+    - FZBase
+  - FZAlertView (0.1.5)
+  - FZBase (0.4.19):
+    - FZBase/CMMotionManager+Fuzz (= 0.4.19)
+    - FZBase/Fuzz (= 0.4.19)
+    - FZBase/FZBaseDemoViewController (= 0.4.19)
+    - FZBase/FZDemoBaseViewController (= 0.4.19)
+    - FZBase/NSArray+Fuzz (= 0.4.19)
+    - FZBase/NSBundle+Fuzz (= 0.4.19)
+    - FZBase/NSData+Fuzz (= 0.4.19)
+    - FZBase/NSDate+Fuzz (= 0.4.19)
+    - FZBase/NSDictionary+Fuzz (= 0.4.19)
+    - FZBase/NSError+Fuzz (= 0.4.19)
+    - FZBase/NSFileManager+Fuzz (= 0.4.19)
+    - FZBase/NSObject+Fuzz (= 0.4.19)
+    - FZBase/NSString+Fuzz (= 0.4.19)
+    - FZBase/NSURL+Fuzz (= 0.4.19)
+    - FZBase/NSURLRequest+Fuzz (= 0.4.19)
+    - FZBase/NSURLSession+Fuzz (= 0.4.19)
+    - FZBase/NSXMLParser+Fuzz (= 0.4.19)
+    - FZBase/UIButton+Fuzz (= 0.4.19)
+    - FZBase/UICollectionView+Fuzz (= 0.4.19)
+    - FZBase/UIColor+Fuzz (= 0.4.19)
+    - FZBase/UIDevice+Fuzz (= 0.4.19)
+    - FZBase/UIFont+Fuzz (= 0.4.19)
+    - FZBase/UIImage+Fuzz (= 0.4.19)
+    - FZBase/UIImageView+Fuzz (= 0.4.19)
+    - FZBase/UILabel+Fuzz (= 0.4.19)
+    - FZBase/UITableView+Fuzz (= 0.4.19)
+    - FZBase/UITextView+Fuzz (= 0.4.19)
+    - FZBase/UIView+Fuzz (= 0.4.19)
+  - FZBase/CMMotionManager+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/UIImage+Fuzz
+  - FZBase/Fuzz (0.4.19)
+  - FZBase/FZBaseDemoViewController (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/FZDemoBaseViewController (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/UIDevice+Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/NSArray+Fuzz (0.4.19):
+    - FZBase/Fuzz
+  - FZBase/NSBundle+Fuzz (0.4.19):
+    - FZBase/Fuzz
+  - FZBase/NSData+Fuzz (0.4.19):
+    - FZBase/Fuzz
+  - FZBase/NSDate+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/UIDevice+Fuzz
+  - FZBase/NSDictionary+Fuzz (0.4.19):
+    - FZBase/Fuzz
+  - FZBase/NSError+Fuzz (0.4.19):
+    - FZBase/Fuzz
+  - FZBase/NSFileManager+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/NSError+Fuzz
+    - FZBase/NSObject+Fuzz
+  - FZBase/NSObject+Fuzz (0.4.19):
+    - FZBase/Fuzz
+  - FZBase/NSString+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/NSFileManager+Fuzz
+    - FZBase/NSXMLParser+Fuzz
+  - FZBase/NSURL+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/NSFileManager+Fuzz
+  - FZBase/NSURLRequest+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/NSFileManager+Fuzz
+  - FZBase/NSURLSession+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/NSFileManager+Fuzz
+  - FZBase/NSXMLParser+Fuzz (0.4.19):
+    - FZBase/Fuzz
+  - FZBase/UIButton+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/UIImage+Fuzz
+  - FZBase/UICollectionView+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/UIColor+Fuzz (0.4.19):
+    - FZBase/Fuzz
+  - FZBase/UIDevice+Fuzz (0.4.19):
+    - FZBase/CMMotionManager+Fuzz
+    - FZBase/Fuzz
+  - FZBase/UIFont+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+  - FZBase/UIImage+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/UIImageView+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/NSFileManager+Fuzz
+    - FZBase/NSString+Fuzz
+    - FZBase/NSURLSession+Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/UILabel+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/UITableView+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/UITextView+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/UIView+Fuzz (0.4.19):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+  - FZCache (0.2.9):
+    - AFNetworking
+    - FZBase
+  - FZCacheHandler (0.0.1):
+    - FZBase
+  - FZDebugMenu (0.0.1):
+    - FZBase
+  - FZReusableXibView (0.0.1)
+  - FZVariableSwitcher (0.0.4):
+    - FZAlertView
+    - FZBase
   - PocketAPI (1.0.3)
+  - pop (1.0.8)
   - Realm (0.95.2):
     - Realm/Headers (= 0.95.2)
   - Realm/Headers (0.95.2)
@@ -14,18 +164,55 @@ PODS:
 DEPENDENCIES:
   - Crashlytics
   - Fabric
+  - FZActionSheet (from `library/FZActionSheet`)
+  - FZAlertView (from `library/FZAlertView`)
+  - FZBase (from `library/FZBase`)
+  - FZCache (from `library/FZCache`)
+  - FZCacheHandler (from `library/FZCacheHandler`)
+  - FZDebugMenu (from `library/FZDebugMenu`)
+  - FZReusableXibView (from `library/FZReusableXibView`)
+  - FZVariableSwitcher (from `library/FZVariableSwitcher`)
   - PocketAPI
+  - pop (~> 1.0)
   - RealmSwift
   - SwiftHTTP (~> 1.0.0)
   - Taplytics
 
+EXTERNAL SOURCES:
+  FZActionSheet:
+    :path: library/FZActionSheet
+  FZAlertView:
+    :path: library/FZAlertView
+  FZBase:
+    :path: library/FZBase
+  FZCache:
+    :path: library/FZCache
+  FZCacheHandler:
+    :path: library/FZCacheHandler
+  FZDebugMenu:
+    :path: library/FZDebugMenu
+  FZReusableXibView:
+    :path: library/FZReusableXibView
+  FZVariableSwitcher:
+    :path: library/FZVariableSwitcher
+
 SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   Crashlytics: 41574a245bc6ae10c55d57f385ebd2004e5bee05
   Fabric: bf0ceb04e7c924090efc5f8c55e4fbcca189e0a0
+  FZActionSheet: 06d9f0c5d1dade8850660c844b7950129b2e6084
+  FZAlertView: 5f5c6f4a7389965e5870f219695a50bdcc5ffcaf
+  FZBase: f719e966c151d33ecd0bf923425b2d9c56887349
+  FZCache: 7df17e4b8c9e9dbd3c8837bae93245f28720e9f3
+  FZCacheHandler: eb9ee3a1827dd56546ad590550801c1650683af7
+  FZDebugMenu: e007542713d303fde24a49480d01ce81c95933d5
+  FZReusableXibView: 2f38ff688eba88cee9e99cd3680329c4f61dba46
+  FZVariableSwitcher: 5c438fb4842c7073b9a656ea651d69a237c5d231
   PocketAPI: 561fd4f428a38a4662c5837247c85f9962393f01
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
   Realm: 4c026902041bb39c4bd083ebc5e88f4f17973d72
   RealmSwift: ac7822fe7ab8dca7fa979f4d576793b111d6dce1
   SwiftHTTP: 6d8ca031a9ce613a01e8f18b497503887b0b50c0
   Taplytics: 97a0340d542fa7375a6bad3db39550e81c498043
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A9C1B9E1A1BAC348A3613EA /* Pods_PocketWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3FC960A519D8152C00E69B /* Pods_PocketWatch.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1A9C1B9E1A1BAC348A3613EA /* Pods_PocketWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3FC960A519D8152C00E69B /* Pods_PocketWatch.framework */; };
 		4927120F1BB73A990080997C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4927120E1BB73A990080997C /* main.m */; };
 		492712121BB73A990080997C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 492712111BB73A990080997C /* AppDelegate.m */; };
 		492712181BB73A990080997C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492712161BB73A990080997C /* Main.storyboard */; };
@@ -18,8 +18,138 @@
 		499B9ABD1BC2329E007772BE /* PWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 499B9ABC1BC2329E007772BE /* PWLoginViewController.m */; };
 		49A9D83F1C02B8C400BE3B78 /* PWPocketWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A9D83E1C02B8C400BE3B78 /* PWPocketWrapper.m */; };
 		49D5FBF21BBB8067007B21F9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D5FBF11BBB8067007B21F9 /* Security.framework */; };
-		5B06C91C8A51A94C731BC302 /* Pods_PocketWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776FC0E921117F5CE12F96DF /* Pods_PocketWatchTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		663507A7677A6E9CFD9256B5 /* Pods_PocketWatchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6379310FF3424976C1AF6DB /* Pods_PocketWatchUITests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5B06C91C8A51A94C731BC302 /* Pods_PocketWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776FC0E921117F5CE12F96DF /* Pods_PocketWatchTests.framework */; };
+		663507A7677A6E9CFD9256B5 /* Pods_PocketWatchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6379310FF3424976C1AF6DB /* Pods_PocketWatchUITests.framework */; };
+		66908A511C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089D31C08066A00B84D3C /* Mark Simonson - Proxima Nova Alt Black Italic.otf */; };
+		66908A521C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089D41C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Black.otf */; };
+		66908A531C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089D51C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Bold Italic.otf */; };
+		66908A541C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089D61C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Bold.otf */; };
+		66908A551C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089D71C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Black Italic.otf */; };
+		66908A561C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089D81C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Black.otf */; };
+		66908A571C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089D91C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Bold Italic.otf */; };
+		66908A581C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089DA1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Bold.otf */; };
+		66908A591C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Extrabold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089DB1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Extrabold Italic.otf */; };
+		66908A5A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089DC1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Extrabold.otf */; };
+		66908A5B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089DD1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Light Italic.otf */; };
+		66908A5C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089DE1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Light.otf */; };
+		66908A5D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089DF1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Regular Italic.otf */; };
+		66908A5E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089E01C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Regular.otf */; };
+		66908A5F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Semibold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089E11C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Semibold Italic.otf */; };
+		66908A601C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089E21C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Semibold.otf */; };
+		66908A611C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089E31C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Thin Italic.otf */; };
+		66908A621C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089E41C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Thin.otf */; };
+		66908A631C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089E51C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Black Italic.otf */; };
+		66908A641C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089E61C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Black.otf */; };
+		66908A651C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089E71C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Bold Italic.otf */; };
+		66908A661C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089E81C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Bold.otf */; };
+		66908A671C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089E91C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold Italic.otf */; };
+		66908A681C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089EA1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold.otf */; };
+		66908A691C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089EB1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Light Italic.otf */; };
+		66908A6A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089EC1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Light.otf */; };
+		66908A6B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089ED1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Regular Italic.otf */; };
+		66908A6C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089EE1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Regular.otf */; };
+		66908A6D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Semibold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089EF1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Semibold Italic.otf */; };
+		66908A6E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089F01C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Semibold.otf */; };
+		66908A6F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089F11C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Thin Italic.otf */; };
+		66908A701C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089F21C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Thin.otf */; };
+		66908A711C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extrabold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089F31C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extrabold Italic.otf */; };
+		66908A721C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089F41C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extrabold.otf */; };
+		66908A731C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089F51C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Light Italic.otf */; };
+		66908A741C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089F61C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Light.otf */; };
+		66908A751C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089F71C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Regular Italic.otf */; };
+		66908A761C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089F81C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Regular.otf */; };
+		66908A771C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Semibold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089F91C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Semibold Italic.otf */; };
+		66908A781C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089FA1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Semibold.otf */; };
+		66908A791C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089FB1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Thin Italic.otf */; };
+		66908A7A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089FC1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Thin.otf */; };
+		66908A7B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089FD1C08066B00B84D3C /* Mark Simonson - Proxima Nova Black Italic.otf */; };
+		66908A7C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089FE1C08066B00B84D3C /* Mark Simonson - Proxima Nova Black.otf */; };
+		66908A7D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089FF1C08066B00B84D3C /* Mark Simonson - Proxima Nova Bold Italic.otf */; };
+		66908A7E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A001C08066B00B84D3C /* Mark Simonson - Proxima Nova Bold.otf */; };
+		66908A7F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A011C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Black Italic.otf */; };
+		66908A801C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A021C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Black.otf */; };
+		66908A811C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A031C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Bold Italic.otf */; };
+		66908A821C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A041C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Bold.otf */; };
+		66908A831C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Extrabold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A051C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Extrabold Italic.otf */; };
+		66908A841C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A061C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Extrabold.otf */; };
+		66908A851C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A071C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Light Italic.otf */; };
+		66908A861C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A081C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Light.otf */; };
+		66908A871C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A091C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Regular Italic.otf */; };
+		66908A881C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A0A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Regular.otf */; };
+		66908A891C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Semibold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A0B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Semibold Italic.otf */; };
+		66908A8A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A0C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Semibold.otf */; };
+		66908A8B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A0D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Thin Italic.otf */; };
+		66908A8C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A0E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Thin.otf */; };
+		66908A8D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A0F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Black Italic.otf */; };
+		66908A8E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A101C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Black.otf */; };
+		66908A8F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A111C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Bold Italic.otf */; };
+		66908A901C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A121C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Bold.otf */; };
+		66908A911C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Extrabold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A131C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Extrabold Italic.otf */; };
+		66908A921C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A141C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Extrabold.otf */; };
+		66908A931C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A151C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Light Italic.otf */; };
+		66908A941C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A161C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Light.otf */; };
+		66908A951C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A171C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Regular Italic.otf */; };
+		66908A961C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A181C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Regular.otf */; };
+		66908A971C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Semibold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A191C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Semibold Italic.otf */; };
+		66908A981C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A1A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Semibold.otf */; };
+		66908A991C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A1B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Thin Italic.otf */; };
+		66908A9A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A1C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Thin.otf */; };
+		66908A9B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extrabold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A1D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extrabold Italic.otf */; };
+		66908A9C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A1E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extrabold.otf */; };
+		66908A9D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A1F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Light Italic.otf */; };
+		66908A9E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A201C08066B00B84D3C /* Mark Simonson - Proxima Nova Light.otf */; };
+		66908A9F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A211C08066B00B84D3C /* Mark Simonson - Proxima Nova Regular Italic.otf */; };
+		66908AA01C08066B00B84D3C /* Mark Simonson - Proxima Nova Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A221C08066B00B84D3C /* Mark Simonson - Proxima Nova Regular.otf */; };
+		66908AA11C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A231C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Black Italic.otf */; };
+		66908AA21C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A241C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Black.otf */; };
+		66908AA31C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A251C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Bold Italic.otf */; };
+		66908AA41C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A261C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Bold.otf */; };
+		66908AA51C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A271C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Black Italic.otf */; };
+		66908AA61C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A281C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Black.otf */; };
+		66908AA71C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A291C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Bold Italic.otf */; };
+		66908AA81C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A2A1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Bold.otf */; };
+		66908AA91C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Extrabold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A2B1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Extrabold Italic.otf */; };
+		66908AAA1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A2C1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Extrabold.otf */; };
+		66908AAB1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A2D1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Light Italic.otf */; };
+		66908AAC1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A2E1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Light.otf */; };
+		66908AAD1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A2F1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Regular Italic.otf */; };
+		66908AAE1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A301C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Regular.otf */; };
+		66908AAF1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Semibold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A311C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Semibold Italic.otf */; };
+		66908AB01C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A321C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Semibold.otf */; };
+		66908AB11C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A331C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Thin Italic.otf */; };
+		66908AB21C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A341C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Thin.otf */; };
+		66908AB31C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A351C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Black Italic.otf */; };
+		66908AB41C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A361C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Black.otf */; };
+		66908AB51C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A371C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Bold Italic.otf */; };
+		66908AB61C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A381C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Bold.otf */; };
+		66908AB71C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Extrabold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A391C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Extrabold Italic.otf */; };
+		66908AB81C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A3A1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Extrabold.otf */; };
+		66908AB91C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A3B1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Light Italic.otf */; };
+		66908ABA1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A3C1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Light.otf */; };
+		66908ABB1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A3D1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Regular Italic.otf */; };
+		66908ABC1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A3E1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Regular.otf */; };
+		66908ABD1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Semibold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A3F1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Semibold Italic.otf */; };
+		66908ABE1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A401C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Semibold.otf */; };
+		66908ABF1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A411C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Thin Italic.otf */; };
+		66908AC01C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A421C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Thin.otf */; };
+		66908AC11C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extrabold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A431C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extrabold Italic.otf */; };
+		66908AC21C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A441C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extrabold.otf */; };
+		66908AC31C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A451C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Light Italic.otf */; };
+		66908AC41C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A461C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Light.otf */; };
+		66908AC51C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A471C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Regular Italic.otf */; };
+		66908AC61C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A481C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Regular.otf */; };
+		66908AC71C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Semibold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A491C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Semibold Italic.otf */; };
+		66908AC81C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A4A1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Semibold.otf */; };
+		66908AC91C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A4B1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Thin Italic.otf */; };
+		66908ACA1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A4C1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Thin.otf */; };
+		66908ACB1C08066B00B84D3C /* Mark Simonson - Proxima Nova Semibold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A4D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Semibold Italic.otf */; };
+		66908ACC1C08066B00B84D3C /* Mark Simonson - Proxima Nova Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A4E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Semibold.otf */; };
+		66908ACD1C08066B00B84D3C /* Mark Simonson - Proxima Nova Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A4F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Thin Italic.otf */; };
+		66908ACE1C08066B00B84D3C /* Mark Simonson - Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66908A501C08066B00B84D3C /* Mark Simonson - Proxima Nova Thin.otf */; };
+		66908AD21C08241900B84D3C /* UIColor+PW.m in Sources */ = {isa = PBXBuildFile; fileRef = 66908AD11C08241900B84D3C /* UIColor+PW.m */; };
+		66908E7E1C08CE0900B84D3C /* PWUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66908E7D1C08CE0900B84D3C /* PWUser.swift */; };
+		66908E801C08CE8300B84D3C /* PWObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66908E7F1C08CE8300B84D3C /* PWObject.swift */; };
+		66908E821C09160900B84D3C /* PWUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66908E811C09160900B84D3C /* PWUserController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +193,138 @@
 		49A9D83D1C02B8C400BE3B78 /* PWPocketWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPocketWrapper.h; sourceTree = "<group>"; };
 		49A9D83E1C02B8C400BE3B78 /* PWPocketWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPocketWrapper.m; sourceTree = "<group>"; };
 		49D5FBF11BBB8067007B21F9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		669089D31C08066A00B84D3C /* Mark Simonson - Proxima Nova Alt Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Black Italic.otf"; sourceTree = "<group>"; };
+		669089D41C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Black.otf"; sourceTree = "<group>"; };
+		669089D51C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Bold Italic.otf"; sourceTree = "<group>"; };
+		669089D61C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Bold.otf"; sourceTree = "<group>"; };
+		669089D71C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Condensed Black Italic.otf"; sourceTree = "<group>"; };
+		669089D81C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Condensed Black.otf"; sourceTree = "<group>"; };
+		669089D91C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Condensed Bold Italic.otf"; sourceTree = "<group>"; };
+		669089DA1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Condensed Bold.otf"; sourceTree = "<group>"; };
+		669089DB1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Extrabold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Condensed Extrabold Italic.otf"; sourceTree = "<group>"; };
+		669089DC1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Condensed Extrabold.otf"; sourceTree = "<group>"; };
+		669089DD1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Condensed Light Italic.otf"; sourceTree = "<group>"; };
+		669089DE1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Condensed Light.otf"; sourceTree = "<group>"; };
+		669089DF1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Condensed Regular Italic.otf"; sourceTree = "<group>"; };
+		669089E01C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Condensed Regular.otf"; sourceTree = "<group>"; };
+		669089E11C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Semibold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Condensed Semibold Italic.otf"; sourceTree = "<group>"; };
+		669089E21C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Condensed Semibold.otf"; sourceTree = "<group>"; };
+		669089E31C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Condensed Thin Italic.otf"; sourceTree = "<group>"; };
+		669089E41C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Condensed Thin.otf"; sourceTree = "<group>"; };
+		669089E51C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extra Condensed Black Italic.otf"; sourceTree = "<group>"; };
+		669089E61C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extra Condensed Black.otf"; sourceTree = "<group>"; };
+		669089E71C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extra Condensed Bold Italic.otf"; sourceTree = "<group>"; };
+		669089E81C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extra Condensed Bold.otf"; sourceTree = "<group>"; };
+		669089E91C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold Italic.otf"; sourceTree = "<group>"; };
+		669089EA1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold.otf"; sourceTree = "<group>"; };
+		669089EB1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extra Condensed Light Italic.otf"; sourceTree = "<group>"; };
+		669089EC1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extra Condensed Light.otf"; sourceTree = "<group>"; };
+		669089ED1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extra Condensed Regular Italic.otf"; sourceTree = "<group>"; };
+		669089EE1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extra Condensed Regular.otf"; sourceTree = "<group>"; };
+		669089EF1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Semibold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extra Condensed Semibold Italic.otf"; sourceTree = "<group>"; };
+		669089F01C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extra Condensed Semibold.otf"; sourceTree = "<group>"; };
+		669089F11C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extra Condensed Thin Italic.otf"; sourceTree = "<group>"; };
+		669089F21C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extra Condensed Thin.otf"; sourceTree = "<group>"; };
+		669089F31C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extrabold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extrabold Italic.otf"; sourceTree = "<group>"; };
+		669089F41C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Extrabold.otf"; sourceTree = "<group>"; };
+		669089F51C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Light Italic.otf"; sourceTree = "<group>"; };
+		669089F61C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Light.otf"; sourceTree = "<group>"; };
+		669089F71C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Regular Italic.otf"; sourceTree = "<group>"; };
+		669089F81C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Regular.otf"; sourceTree = "<group>"; };
+		669089F91C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Semibold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Semibold Italic.otf"; sourceTree = "<group>"; };
+		669089FA1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Semibold.otf"; sourceTree = "<group>"; };
+		669089FB1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Thin Italic.otf"; sourceTree = "<group>"; };
+		669089FC1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Thin.otf"; sourceTree = "<group>"; };
+		669089FD1C08066B00B84D3C /* Mark Simonson - Proxima Nova Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Black Italic.otf"; sourceTree = "<group>"; };
+		669089FE1C08066B00B84D3C /* Mark Simonson - Proxima Nova Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Black.otf"; sourceTree = "<group>"; };
+		669089FF1C08066B00B84D3C /* Mark Simonson - Proxima Nova Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Bold Italic.otf"; sourceTree = "<group>"; };
+		66908A001C08066B00B84D3C /* Mark Simonson - Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		66908A011C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Condensed Black Italic.otf"; sourceTree = "<group>"; };
+		66908A021C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Condensed Black.otf"; sourceTree = "<group>"; };
+		66908A031C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Condensed Bold Italic.otf"; sourceTree = "<group>"; };
+		66908A041C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Condensed Bold.otf"; sourceTree = "<group>"; };
+		66908A051C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Extrabold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Condensed Extrabold Italic.otf"; sourceTree = "<group>"; };
+		66908A061C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Condensed Extrabold.otf"; sourceTree = "<group>"; };
+		66908A071C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Condensed Light Italic.otf"; sourceTree = "<group>"; };
+		66908A081C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Condensed Light.otf"; sourceTree = "<group>"; };
+		66908A091C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Condensed Regular Italic.otf"; sourceTree = "<group>"; };
+		66908A0A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Condensed Regular.otf"; sourceTree = "<group>"; };
+		66908A0B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Semibold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Condensed Semibold Italic.otf"; sourceTree = "<group>"; };
+		66908A0C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Condensed Semibold.otf"; sourceTree = "<group>"; };
+		66908A0D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Condensed Thin Italic.otf"; sourceTree = "<group>"; };
+		66908A0E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Condensed Thin.otf"; sourceTree = "<group>"; };
+		66908A0F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extra Condensed Black Italic.otf"; sourceTree = "<group>"; };
+		66908A101C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extra Condensed Black.otf"; sourceTree = "<group>"; };
+		66908A111C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extra Condensed Bold Italic.otf"; sourceTree = "<group>"; };
+		66908A121C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extra Condensed Bold.otf"; sourceTree = "<group>"; };
+		66908A131C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Extrabold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extra Condensed Extrabold Italic.otf"; sourceTree = "<group>"; };
+		66908A141C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extra Condensed Extrabold.otf"; sourceTree = "<group>"; };
+		66908A151C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extra Condensed Light Italic.otf"; sourceTree = "<group>"; };
+		66908A161C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extra Condensed Light.otf"; sourceTree = "<group>"; };
+		66908A171C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extra Condensed Regular Italic.otf"; sourceTree = "<group>"; };
+		66908A181C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extra Condensed Regular.otf"; sourceTree = "<group>"; };
+		66908A191C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Semibold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extra Condensed Semibold Italic.otf"; sourceTree = "<group>"; };
+		66908A1A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extra Condensed Semibold.otf"; sourceTree = "<group>"; };
+		66908A1B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extra Condensed Thin Italic.otf"; sourceTree = "<group>"; };
+		66908A1C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extra Condensed Thin.otf"; sourceTree = "<group>"; };
+		66908A1D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extrabold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extrabold Italic.otf"; sourceTree = "<group>"; };
+		66908A1E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Extrabold.otf"; sourceTree = "<group>"; };
+		66908A1F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Light Italic.otf"; sourceTree = "<group>"; };
+		66908A201C08066B00B84D3C /* Mark Simonson - Proxima Nova Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Light.otf"; sourceTree = "<group>"; };
+		66908A211C08066B00B84D3C /* Mark Simonson - Proxima Nova Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Regular Italic.otf"; sourceTree = "<group>"; };
+		66908A221C08066B00B84D3C /* Mark Simonson - Proxima Nova Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Regular.otf"; sourceTree = "<group>"; };
+		66908A231C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Black Italic.otf"; sourceTree = "<group>"; };
+		66908A241C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Black.otf"; sourceTree = "<group>"; };
+		66908A251C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Bold Italic.otf"; sourceTree = "<group>"; };
+		66908A261C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Bold.otf"; sourceTree = "<group>"; };
+		66908A271C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Condensed Black Italic.otf"; sourceTree = "<group>"; };
+		66908A281C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Condensed Black.otf"; sourceTree = "<group>"; };
+		66908A291C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Condensed Bold Italic.otf"; sourceTree = "<group>"; };
+		66908A2A1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Condensed Bold.otf"; sourceTree = "<group>"; };
+		66908A2B1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Extrabold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Condensed Extrabold Italic.otf"; sourceTree = "<group>"; };
+		66908A2C1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Condensed Extrabold.otf"; sourceTree = "<group>"; };
+		66908A2D1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Condensed Light Italic.otf"; sourceTree = "<group>"; };
+		66908A2E1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Condensed Light.otf"; sourceTree = "<group>"; };
+		66908A2F1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Condensed Regular Italic.otf"; sourceTree = "<group>"; };
+		66908A301C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Condensed Regular.otf"; sourceTree = "<group>"; };
+		66908A311C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Semibold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Condensed Semibold Italic.otf"; sourceTree = "<group>"; };
+		66908A321C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Condensed Semibold.otf"; sourceTree = "<group>"; };
+		66908A331C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Condensed Thin Italic.otf"; sourceTree = "<group>"; };
+		66908A341C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Condensed Thin.otf"; sourceTree = "<group>"; };
+		66908A351C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extra Condensed Black Italic.otf"; sourceTree = "<group>"; };
+		66908A361C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extra Condensed Black.otf"; sourceTree = "<group>"; };
+		66908A371C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extra Condensed Bold Italic.otf"; sourceTree = "<group>"; };
+		66908A381C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extra Condensed Bold.otf"; sourceTree = "<group>"; };
+		66908A391C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Extrabold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extra Condensed Extrabold Italic.otf"; sourceTree = "<group>"; };
+		66908A3A1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extra Condensed Extrabold.otf"; sourceTree = "<group>"; };
+		66908A3B1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extra Condensed Light Italic.otf"; sourceTree = "<group>"; };
+		66908A3C1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extra Condensed Light.otf"; sourceTree = "<group>"; };
+		66908A3D1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extra Condensed Regular Italic.otf"; sourceTree = "<group>"; };
+		66908A3E1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extra Condensed Regular.otf"; sourceTree = "<group>"; };
+		66908A3F1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Semibold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extra Condensed Semibold Italic.otf"; sourceTree = "<group>"; };
+		66908A401C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extra Condensed Semibold.otf"; sourceTree = "<group>"; };
+		66908A411C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extra Condensed Thin Italic.otf"; sourceTree = "<group>"; };
+		66908A421C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extra Condensed Thin.otf"; sourceTree = "<group>"; };
+		66908A431C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extrabold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extrabold Italic.otf"; sourceTree = "<group>"; };
+		66908A441C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Extrabold.otf"; sourceTree = "<group>"; };
+		66908A451C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Light Italic.otf"; sourceTree = "<group>"; };
+		66908A461C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Light.otf"; sourceTree = "<group>"; };
+		66908A471C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Regular Italic.otf"; sourceTree = "<group>"; };
+		66908A481C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Regular.otf"; sourceTree = "<group>"; };
+		66908A491C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Semibold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Semibold Italic.otf"; sourceTree = "<group>"; };
+		66908A4A1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Semibold.otf"; sourceTree = "<group>"; };
+		66908A4B1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Thin Italic.otf"; sourceTree = "<group>"; };
+		66908A4C1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova ScOsf Thin.otf"; sourceTree = "<group>"; };
+		66908A4D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Semibold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Semibold Italic.otf"; sourceTree = "<group>"; };
+		66908A4E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Semibold.otf"; sourceTree = "<group>"; };
+		66908A4F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Thin Italic.otf"; sourceTree = "<group>"; };
+		66908A501C08066B00B84D3C /* Mark Simonson - Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		66908AD01C08241900B84D3C /* UIColor+PW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PW.h"; sourceTree = "<group>"; };
+		66908AD11C08241900B84D3C /* UIColor+PW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PW.m"; sourceTree = "<group>"; };
+		66908E7C1C08CE0800B84D3C /* PocketWatch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketWatch-Bridging-Header.h"; sourceTree = "<group>"; };
+		66908E7D1C08CE0900B84D3C /* PWUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWUser.swift; sourceTree = "<group>"; };
+		66908E7F1C08CE8300B84D3C /* PWObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWObject.swift; sourceTree = "<group>"; };
+		66908E811C09160900B84D3C /* PWUserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWUserController.swift; sourceTree = "<group>"; };
 		776FC0E921117F5CE12F96DF /* Pods_PocketWatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketWatchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3FC960A519D8152C00E69B /* Pods_PocketWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0025CB2BC51F4ECCB190867 /* Pods-PocketWatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketWatchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocketWatchUITests/Pods-PocketWatchUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +386,7 @@
 		4927120C1BB73A990080997C /* PocketWatch */ = {
 			isa = PBXGroup;
 			children = (
+				66908ACF1C0823EA00B84D3C /* Categories */,
 				49D5FBF71BBB8588007B21F9 /* ViewControllers */,
 				49D5FBF61BBB857F007B21F9 /* Views */,
 				49D5FBF51BBB8577007B21F9 /* Model Controllers */,
@@ -163,10 +426,12 @@
 		49D5FBF31BBB8552007B21F9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				66908E7C1C08CE0800B84D3C /* PocketWatch-Bridging-Header.h */,
 				492712101BB73A990080997C /* AppDelegate.h */,
 				492712111BB73A990080997C /* AppDelegate.m */,
-				492712191BB73A990080997C /* Assets.xcassets */,
 				4927121E1BB73A990080997C /* Info.plist */,
+				669089D21C08063B00B84D3C /* image assets */,
+				669089D11C08063200B84D3C /* fonts */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -174,6 +439,8 @@
 		49D5FBF41BBB856D007B21F9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				66908E7D1C08CE0900B84D3C /* PWUser.swift */,
+				66908E7F1C08CE8300B84D3C /* PWObject.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -183,6 +450,7 @@
 			children = (
 				49A9D83D1C02B8C400BE3B78 /* PWPocketWrapper.h */,
 				49A9D83E1C02B8C400BE3B78 /* PWPocketWrapper.m */,
+				66908E811C09160900B84D3C /* PWUserController.swift */,
 			);
 			name = "Model Controllers";
 			sourceTree = "<group>";
@@ -203,6 +471,156 @@
 				499B9ABC1BC2329E007772BE /* PWLoginViewController.m */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		669089D11C08063200B84D3C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				669089D31C08066A00B84D3C /* Mark Simonson - Proxima Nova Alt Black Italic.otf */,
+				669089D41C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Black.otf */,
+				669089D51C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Bold Italic.otf */,
+				669089D61C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Bold.otf */,
+				669089D71C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Black Italic.otf */,
+				669089D81C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Black.otf */,
+				669089D91C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Bold Italic.otf */,
+				669089DA1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Bold.otf */,
+				669089DB1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Extrabold Italic.otf */,
+				669089DC1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Extrabold.otf */,
+				669089DD1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Light Italic.otf */,
+				669089DE1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Light.otf */,
+				669089DF1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Regular Italic.otf */,
+				669089E01C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Regular.otf */,
+				669089E11C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Semibold Italic.otf */,
+				669089E21C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Semibold.otf */,
+				669089E31C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Thin Italic.otf */,
+				669089E41C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Thin.otf */,
+				669089E51C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Black Italic.otf */,
+				669089E61C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Black.otf */,
+				669089E71C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Bold Italic.otf */,
+				669089E81C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Bold.otf */,
+				669089E91C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold Italic.otf */,
+				669089EA1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold.otf */,
+				669089EB1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Light Italic.otf */,
+				669089EC1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Light.otf */,
+				669089ED1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Regular Italic.otf */,
+				669089EE1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Regular.otf */,
+				669089EF1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Semibold Italic.otf */,
+				669089F01C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Semibold.otf */,
+				669089F11C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Thin Italic.otf */,
+				669089F21C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Thin.otf */,
+				669089F31C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extrabold Italic.otf */,
+				669089F41C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extrabold.otf */,
+				669089F51C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Light Italic.otf */,
+				669089F61C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Light.otf */,
+				669089F71C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Regular Italic.otf */,
+				669089F81C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Regular.otf */,
+				669089F91C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Semibold Italic.otf */,
+				669089FA1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Semibold.otf */,
+				669089FB1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Thin Italic.otf */,
+				669089FC1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Thin.otf */,
+				669089FD1C08066B00B84D3C /* Mark Simonson - Proxima Nova Black Italic.otf */,
+				669089FE1C08066B00B84D3C /* Mark Simonson - Proxima Nova Black.otf */,
+				669089FF1C08066B00B84D3C /* Mark Simonson - Proxima Nova Bold Italic.otf */,
+				66908A001C08066B00B84D3C /* Mark Simonson - Proxima Nova Bold.otf */,
+				66908A011C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Black Italic.otf */,
+				66908A021C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Black.otf */,
+				66908A031C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Bold Italic.otf */,
+				66908A041C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Bold.otf */,
+				66908A051C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Extrabold Italic.otf */,
+				66908A061C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Extrabold.otf */,
+				66908A071C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Light Italic.otf */,
+				66908A081C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Light.otf */,
+				66908A091C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Regular Italic.otf */,
+				66908A0A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Regular.otf */,
+				66908A0B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Semibold Italic.otf */,
+				66908A0C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Semibold.otf */,
+				66908A0D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Thin Italic.otf */,
+				66908A0E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Thin.otf */,
+				66908A0F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Black Italic.otf */,
+				66908A101C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Black.otf */,
+				66908A111C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Bold Italic.otf */,
+				66908A121C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Bold.otf */,
+				66908A131C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Extrabold Italic.otf */,
+				66908A141C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Extrabold.otf */,
+				66908A151C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Light Italic.otf */,
+				66908A161C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Light.otf */,
+				66908A171C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Regular Italic.otf */,
+				66908A181C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Regular.otf */,
+				66908A191C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Semibold Italic.otf */,
+				66908A1A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Semibold.otf */,
+				66908A1B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Thin Italic.otf */,
+				66908A1C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Thin.otf */,
+				66908A1D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extrabold Italic.otf */,
+				66908A1E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extrabold.otf */,
+				66908A1F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Light Italic.otf */,
+				66908A201C08066B00B84D3C /* Mark Simonson - Proxima Nova Light.otf */,
+				66908A211C08066B00B84D3C /* Mark Simonson - Proxima Nova Regular Italic.otf */,
+				66908A221C08066B00B84D3C /* Mark Simonson - Proxima Nova Regular.otf */,
+				66908A231C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Black Italic.otf */,
+				66908A241C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Black.otf */,
+				66908A251C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Bold Italic.otf */,
+				66908A261C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Bold.otf */,
+				66908A271C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Black Italic.otf */,
+				66908A281C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Black.otf */,
+				66908A291C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Bold Italic.otf */,
+				66908A2A1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Bold.otf */,
+				66908A2B1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Extrabold Italic.otf */,
+				66908A2C1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Extrabold.otf */,
+				66908A2D1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Light Italic.otf */,
+				66908A2E1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Light.otf */,
+				66908A2F1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Regular Italic.otf */,
+				66908A301C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Regular.otf */,
+				66908A311C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Semibold Italic.otf */,
+				66908A321C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Semibold.otf */,
+				66908A331C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Thin Italic.otf */,
+				66908A341C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Thin.otf */,
+				66908A351C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Black Italic.otf */,
+				66908A361C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Black.otf */,
+				66908A371C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Bold Italic.otf */,
+				66908A381C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Bold.otf */,
+				66908A391C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Extrabold Italic.otf */,
+				66908A3A1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Extrabold.otf */,
+				66908A3B1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Light Italic.otf */,
+				66908A3C1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Light.otf */,
+				66908A3D1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Regular Italic.otf */,
+				66908A3E1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Regular.otf */,
+				66908A3F1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Semibold Italic.otf */,
+				66908A401C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Semibold.otf */,
+				66908A411C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Thin Italic.otf */,
+				66908A421C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Thin.otf */,
+				66908A431C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extrabold Italic.otf */,
+				66908A441C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extrabold.otf */,
+				66908A451C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Light Italic.otf */,
+				66908A461C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Light.otf */,
+				66908A471C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Regular Italic.otf */,
+				66908A481C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Regular.otf */,
+				66908A491C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Semibold Italic.otf */,
+				66908A4A1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Semibold.otf */,
+				66908A4B1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Thin Italic.otf */,
+				66908A4C1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Thin.otf */,
+				66908A4D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Semibold Italic.otf */,
+				66908A4E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Semibold.otf */,
+				66908A4F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Thin Italic.otf */,
+				66908A501C08066B00B84D3C /* Mark Simonson - Proxima Nova Thin.otf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		669089D21C08063B00B84D3C /* image assets */ = {
+			isa = PBXGroup;
+			children = (
+				492712191BB73A990080997C /* Assets.xcassets */,
+			);
+			name = "image assets";
+			sourceTree = "<group>";
+		};
+		66908ACF1C0823EA00B84D3C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				66908AD01C08241900B84D3C /* UIColor+PW.h */,
+				66908AD11C08241900B84D3C /* UIColor+PW.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 		9CFD4D0379C4D1250D939740 /* Frameworks */ = {
@@ -301,11 +719,13 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = PW;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Andrew Sowers";
 				TargetAttributes = {
 					492712091BB73A990080997C = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 2DP9335PZJ;
 					};
 					492712221BB73A990080997C = {
 						CreatedOnToolsVersion = 7.0;
@@ -342,9 +762,135 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66908A9F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Regular Italic.otf in Resources */,
+				66908AA81C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Bold.otf in Resources */,
+				66908A8D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Black Italic.otf in Resources */,
+				66908A651C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Bold Italic.otf in Resources */,
+				66908A5E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Regular.otf in Resources */,
+				66908A841C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Extrabold.otf in Resources */,
+				66908A941C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Light.otf in Resources */,
+				66908AB11C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Thin Italic.otf in Resources */,
+				66908AC21C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extrabold.otf in Resources */,
+				66908A6E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Semibold.otf in Resources */,
+				66908A701C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Thin.otf in Resources */,
+				66908A6B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Regular Italic.otf in Resources */,
+				66908AC71C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Semibold Italic.otf in Resources */,
+				66908A781C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Semibold.otf in Resources */,
+				66908AAB1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Light Italic.otf in Resources */,
 				4927121D1BB73A990080997C /* LaunchScreen.storyboard in Resources */,
+				66908A711C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extrabold Italic.otf in Resources */,
+				66908AB01C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Semibold.otf in Resources */,
+				66908A871C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Regular Italic.otf in Resources */,
+				66908A601C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Semibold.otf in Resources */,
+				66908AB71C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Extrabold Italic.otf in Resources */,
+				66908A521C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Black.otf in Resources */,
+				66908A681C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold.otf in Resources */,
+				66908A671C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold Italic.otf in Resources */,
+				66908A961C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Regular.otf in Resources */,
+				66908AA21C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Black.otf in Resources */,
+				66908AA71C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Bold Italic.otf in Resources */,
+				66908A5D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Regular Italic.otf in Resources */,
+				66908A691C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Light Italic.otf in Resources */,
+				66908AA01C08066B00B84D3C /* Mark Simonson - Proxima Nova Regular.otf in Resources */,
+				66908A981C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Semibold.otf in Resources */,
+				66908A831C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Extrabold Italic.otf in Resources */,
+				66908A751C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Regular Italic.otf in Resources */,
+				66908A861C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Light.otf in Resources */,
+				66908A911C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Extrabold Italic.otf in Resources */,
+				66908A8A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Semibold.otf in Resources */,
+				66908A791C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Thin Italic.otf in Resources */,
+				66908A7C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Black.otf in Resources */,
+				66908A6C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Regular.otf in Resources */,
+				66908A641C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Black.otf in Resources */,
+				66908AC81C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Semibold.otf in Resources */,
+				66908A741C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Light.otf in Resources */,
+				66908A931C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Light Italic.otf in Resources */,
+				66908A7F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Black Italic.otf in Resources */,
+				66908A7A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Thin.otf in Resources */,
+				66908A991C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Thin Italic.otf in Resources */,
+				66908A541C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Bold.otf in Resources */,
+				66908ABA1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Light.otf in Resources */,
+				66908ACE1C08066B00B84D3C /* Mark Simonson - Proxima Nova Thin.otf in Resources */,
+				66908AB21C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Thin.otf in Resources */,
+				66908A591C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Extrabold Italic.otf in Resources */,
+				66908A5C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Light.otf in Resources */,
+				66908AB91C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Light Italic.otf in Resources */,
+				66908AC31C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Light Italic.otf in Resources */,
+				66908A6F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Thin Italic.otf in Resources */,
+				66908AC51C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Regular Italic.otf in Resources */,
+				66908A8B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Thin Italic.otf in Resources */,
+				66908A611C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Thin Italic.otf in Resources */,
+				66908A7E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Bold.otf in Resources */,
+				66908ABE1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Semibold.otf in Resources */,
+				66908A5B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Light Italic.otf in Resources */,
+				66908AAF1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Semibold Italic.otf in Resources */,
+				66908A971C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Semibold Italic.otf in Resources */,
+				66908AAD1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Regular Italic.otf in Resources */,
+				66908AC41C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Light.otf in Resources */,
+				66908AAE1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Regular.otf in Resources */,
+				66908AA31C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Bold Italic.otf in Resources */,
+				66908A881C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Regular.otf in Resources */,
+				66908A811C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Bold Italic.otf in Resources */,
+				66908A891C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Semibold Italic.otf in Resources */,
+				66908AAC1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Light.otf in Resources */,
+				66908ABB1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Regular Italic.otf in Resources */,
+				66908A9A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Thin.otf in Resources */,
+				66908A6A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Light.otf in Resources */,
+				66908AA91C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Extrabold Italic.otf in Resources */,
+				66908A9E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Light.otf in Resources */,
+				66908AC11C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extrabold Italic.otf in Resources */,
+				66908A851C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Light Italic.otf in Resources */,
+				66908A8E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Black.otf in Resources */,
+				66908ACD1C08066B00B84D3C /* Mark Simonson - Proxima Nova Thin Italic.otf in Resources */,
+				66908ABF1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Thin Italic.otf in Resources */,
+				66908AA11C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Black Italic.otf in Resources */,
+				66908A551C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Black Italic.otf in Resources */,
+				66908A8F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Bold Italic.otf in Resources */,
+				66908ABD1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Semibold Italic.otf in Resources */,
+				66908AC61C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Regular.otf in Resources */,
+				66908AA41C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Bold.otf in Resources */,
+				66908A9D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Light Italic.otf in Resources */,
+				66908A951C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Regular Italic.otf in Resources */,
+				66908AB41C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Black.otf in Resources */,
+				66908A661C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Bold.otf in Resources */,
+				66908A581C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Bold.otf in Resources */,
+				66908A571C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Bold Italic.otf in Resources */,
+				66908AB81C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Extrabold.otf in Resources */,
 				4927121A1BB73A990080997C /* Assets.xcassets in Resources */,
+				66908A9B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extrabold Italic.otf in Resources */,
+				66908AC91C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Thin Italic.otf in Resources */,
+				66908A531C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Bold Italic.otf in Resources */,
+				66908A721C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extrabold.otf in Resources */,
+				66908ABC1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Regular.otf in Resources */,
+				66908A921C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Extrabold.otf in Resources */,
+				66908ACC1C08066B00B84D3C /* Mark Simonson - Proxima Nova Semibold.otf in Resources */,
+				66908A631C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Black Italic.otf in Resources */,
+				66908A761C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Regular.otf in Resources */,
+				66908A5A1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Extrabold.otf in Resources */,
+				66908A6D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Semibold Italic.otf in Resources */,
+				66908A901C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Bold.otf in Resources */,
+				66908A561C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Black.otf in Resources */,
+				66908A9C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extrabold.otf in Resources */,
+				66908A7B1C08066B00B84D3C /* Mark Simonson - Proxima Nova Black Italic.otf in Resources */,
+				66908AB31C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Black Italic.otf in Resources */,
+				66908ACB1C08066B00B84D3C /* Mark Simonson - Proxima Nova Semibold Italic.otf in Resources */,
+				66908A621C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Thin.otf in Resources */,
+				66908A511C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Black Italic.otf in Resources */,
+				66908A5F1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Semibold Italic.otf in Resources */,
+				66908A821C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Bold.otf in Resources */,
+				66908A8C1C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Thin.otf in Resources */,
+				66908AA51C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Black Italic.otf in Resources */,
+				66908AAA1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Extrabold.otf in Resources */,
+				66908AB61C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Bold.otf in Resources */,
+				66908A7D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Bold Italic.otf in Resources */,
+				66908AC01C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Thin.otf in Resources */,
+				66908AA61C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Black.otf in Resources */,
+				66908AB51C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Bold Italic.otf in Resources */,
 				492712181BB73A990080997C /* Main.storyboard in Resources */,
+				66908A731C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Light Italic.otf in Resources */,
+				66908ACA1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Thin.otf in Resources */,
+				66908A801C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Black.otf in Resources */,
+				66908A771C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Semibold Italic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,9 +1052,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66908E801C08CE8300B84D3C /* PWObject.swift in Sources */,
 				492712121BB73A990080997C /* AppDelegate.m in Sources */,
 				499B9ABD1BC2329E007772BE /* PWLoginViewController.m in Sources */,
+				66908E821C09160900B84D3C /* PWUserController.swift in Sources */,
 				49A9D83F1C02B8C400BE3B78 /* PWPocketWrapper.m in Sources */,
+				66908E7E1C08CE0900B84D3C /* PWUser.swift in Sources */,
+				66908AD21C08241900B84D3C /* UIColor+PW.m in Sources */,
 				4927120F1BB73A990080997C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -649,11 +1199,17 @@
 			baseConfigurationReference = 3BE6CD44FF5359D85FFE46B9 /* Pods-PocketWatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PocketWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.PocketWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PocketWatch/PocketWatch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -662,11 +1218,16 @@
 			baseConfigurationReference = 3AF973394C626F05172AFC57 /* Pods-PocketWatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PocketWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.PocketWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PocketWatch/PocketWatch-Bridging-Header.h";
 			};
 			name = Release;
 		};

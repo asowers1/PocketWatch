@@ -2,6 +2,162 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Mark Simonson - Proxima Nova Alt Black Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Black.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Bold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Bold.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Black Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Black.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Bold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Bold.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Extrabold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Extrabold.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Light Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Light.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Regular Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Regular.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Semibold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Semibold.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Thin Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Thin.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Black Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Black.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Bold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Bold.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Light Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Light.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Regular Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Regular.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Semibold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Semibold.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Thin Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Thin.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extrabold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extrabold.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Light Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Light.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Regular Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Regular.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Semibold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Semibold.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Thin Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Condensed Thin.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Black Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Black.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Bold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Bold.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Light Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Light.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Regular Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Regular.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Semibold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Semibold.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Thin Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extra Condensed Thin.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extrabold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Extrabold.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Light Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Light.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Regular Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Regular.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Semibold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Thin Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Alt Thin.otf</string>
+		<string>Mark Simonson - Proxima Nova Black Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Black.otf</string>
+		<string>Mark Simonson - Proxima Nova Bold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Bold.otf</string>
+		<string>Mark Simonson - Proxima Nova Condensed Black Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Condensed Black.otf</string>
+		<string>Mark Simonson - Proxima Nova Condensed Bold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Condensed Bold.otf</string>
+		<string>Mark Simonson - Proxima Nova Condensed Extrabold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Condensed Extrabold.otf</string>
+		<string>Mark Simonson - Proxima Nova Condensed Light Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Condensed Light.otf</string>
+		<string>Mark Simonson - Proxima Nova Condensed Regular Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Condensed Regular.otf</string>
+		<string>Mark Simonson - Proxima Nova Condensed Semibold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Condensed Semibold.otf</string>
+		<string>Mark Simonson - Proxima Nova Condensed Thin Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Condensed Thin.otf</string>
+		<string>Mark Simonson - Proxima Nova Extra Condensed Black Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Extra Condensed Black.otf</string>
+		<string>Mark Simonson - Proxima Nova Extra Condensed Bold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Extra Condensed Bold.otf</string>
+		<string>Mark Simonson - Proxima Nova Extra Condensed Extrabold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Extra Condensed Extrabold.otf</string>
+		<string>Mark Simonson - Proxima Nova Extra Condensed Light Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Extra Condensed Light.otf</string>
+		<string>Mark Simonson - Proxima Nova Extra Condensed Regular Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Extra Condensed Regular.otf</string>
+		<string>Mark Simonson - Proxima Nova Extra Condensed Semibold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Extra Condensed Semibold.otf</string>
+		<string>Mark Simonson - Proxima Nova Extra Condensed Thin Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Extra Condensed Thin.otf</string>
+		<string>Mark Simonson - Proxima Nova Extrabold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Extrabold.otf</string>
+		<string>Mark Simonson - Proxima Nova Light Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Light.otf</string>
+		<string>Mark Simonson - Proxima Nova Regular Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Regular.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Black Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Black.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Bold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Bold.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Condensed Black Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Condensed Black.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Condensed Bold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Condensed Bold.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Condensed Extrabold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Condensed Extrabold.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Condensed Light Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Condensed Light.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Condensed Regular Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Condensed Regular.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Condensed Semibold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Condensed Semibold.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Condensed Thin Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Condensed Thin.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extra Condensed Black Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extra Condensed Black.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extra Condensed Bold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extra Condensed Bold.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extra Condensed Extrabold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extra Condensed Extrabold.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extra Condensed Light Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extra Condensed Light.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extra Condensed Regular Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extra Condensed Regular.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extra Condensed Semibold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extra Condensed Semibold.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extra Condensed Thin Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extra Condensed Thin.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extrabold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Extrabold.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Light Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Light.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Regular Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Regular.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Semibold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Semibold.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Thin Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova ScOsf Thin.otf</string>
+		<string>Mark Simonson - Proxima Nova Semibold Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Semibold.otf</string>
+		<string>Mark Simonson - Proxima Nova Thin Italic.otf</string>
+		<string>Mark Simonson - Proxima Nova Thin.otf</string>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>pocket-oauth-v1</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -22,7 +178,7 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
-			<string></string>
+			<string>com.getpocket.sdk</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>pocketapp46328</string>
