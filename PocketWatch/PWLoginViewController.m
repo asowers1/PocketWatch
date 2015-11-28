@@ -9,6 +9,8 @@
 #import "PWLoginViewController.h"
 #import "PocketAPI.h"
 #import "PWPocketWrapper.h"
+#import "Realm.h"
+#import "PocketWatch-Swift.h"
 
 @interface PWLoginViewController ()
 
@@ -18,12 +20,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self determinLoginStatus];
     [self setup];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)determinLoginStatus {
+    NSLog(@"user: %@",[[PWUserController sharedController] user]);
 }
 
 -(void)setup{

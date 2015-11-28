@@ -8,6 +8,7 @@
 
 #import "PWPocketWrapper.h"
 #import "PocketAPI.h"
+#import "PocketWatch-Swift.h"
 
 @implementation PWPocketWrapper
 
@@ -42,7 +43,8 @@
                                              if (error) {
                                                  NSLog(@"error: %@",error.localizedDescription);
                                              } else {
-                                                 NSLog(@"%@",response);
+                                                 NSString *username = [api username];
+                                                 [[PWUserController sharedController] createUser:0 username:username phone_number:@""];
                                              }
                                          }];
         }
