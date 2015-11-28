@@ -1,0 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@gitlab.fuzzhq.com:ios-modules/podspecs.git'
+platform :ios, "7.0"
+
+pod 'FZBase', '0.4.22'
+pod 'FZAlertView', '0.1.5'
+pod 'FZVariableSwitcher', :path => '..'

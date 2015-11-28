@@ -1,0 +1,24 @@
+NSURLSession + Fuzz
+
+This category simplifies the use of NSURLSession for HTTP networking. It aims to reduce the need for third party libraries. Below are areas where this category could be improved
+
+
+
+- POST multi-part
+- TRACE http method
+- CONNECT http method
+- Resume download with data
+- authentication challenges
+- XML Acceptheader
+
+- NSURLSession ephemeral session
+- NSURLSession background session
+- TLS verification
+
+(from alamofire)
+- printable requests
+- debug printable
+- Output cURL
+- UIImageView loadFromURL
+- Chainable Requests
+- plist parameter encoding

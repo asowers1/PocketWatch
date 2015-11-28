@@ -1,0 +1,130 @@
+PODS:
+  - FZBase (0.4.22):
+    - FZBase/CMMotionManager+Fuzz (= 0.4.22)
+    - FZBase/Fuzz (= 0.4.22)
+    - FZBase/FZBaseDemoViewController (= 0.4.22)
+    - FZBase/FZDemoBaseViewController (= 0.4.22)
+    - FZBase/NSArray+Fuzz (= 0.4.22)
+    - FZBase/NSBundle+Fuzz (= 0.4.22)
+    - FZBase/NSData+Fuzz (= 0.4.22)
+    - FZBase/NSDate+Fuzz (= 0.4.22)
+    - FZBase/NSDictionary+Fuzz (= 0.4.22)
+    - FZBase/NSError+Fuzz (= 0.4.22)
+    - FZBase/NSFileManager+Fuzz (= 0.4.22)
+    - FZBase/NSObject+Fuzz (= 0.4.22)
+    - FZBase/NSString+Fuzz (= 0.4.22)
+    - FZBase/NSURL+Fuzz (= 0.4.22)
+    - FZBase/NSURLRequest+Fuzz (= 0.4.22)
+    - FZBase/NSURLSession+Fuzz (= 0.4.22)
+    - FZBase/NSXMLParser+Fuzz (= 0.4.22)
+    - FZBase/UIButton+Fuzz (= 0.4.22)
+    - FZBase/UICollectionView+Fuzz (= 0.4.22)
+    - FZBase/UIColor+Fuzz (= 0.4.22)
+    - FZBase/UIDevice+Fuzz (= 0.4.22)
+    - FZBase/UIFont+Fuzz (= 0.4.22)
+    - FZBase/UIImage+Fuzz (= 0.4.22)
+    - FZBase/UIImageView+Fuzz (= 0.4.22)
+    - FZBase/UILabel+Fuzz (= 0.4.22)
+    - FZBase/UITableView+Fuzz (= 0.4.22)
+    - FZBase/UITextView+Fuzz (= 0.4.22)
+    - FZBase/UIView+Fuzz (= 0.4.22)
+  - FZBase/CMMotionManager+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/UIImage+Fuzz
+  - FZBase/Fuzz (0.4.22)
+  - FZBase/FZBaseDemoViewController (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/FZDemoBaseViewController (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/UIDevice+Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/NSArray+Fuzz (0.4.22):
+    - FZBase/Fuzz
+  - FZBase/NSBundle+Fuzz (0.4.22):
+    - FZBase/Fuzz
+  - FZBase/NSData+Fuzz (0.4.22):
+    - FZBase/Fuzz
+  - FZBase/NSDate+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/UIDevice+Fuzz
+  - FZBase/NSDictionary+Fuzz (0.4.22):
+    - FZBase/Fuzz
+  - FZBase/NSError+Fuzz (0.4.22):
+    - FZBase/Fuzz
+  - FZBase/NSFileManager+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/NSError+Fuzz
+    - FZBase/NSObject+Fuzz
+  - FZBase/NSObject+Fuzz (0.4.22):
+    - FZBase/Fuzz
+  - FZBase/NSString+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/NSFileManager+Fuzz
+    - FZBase/NSXMLParser+Fuzz
+  - FZBase/NSURL+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/NSFileManager+Fuzz
+  - FZBase/NSURLRequest+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/NSFileManager+Fuzz
+  - FZBase/NSURLSession+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/NSFileManager+Fuzz
+  - FZBase/NSXMLParser+Fuzz (0.4.22):
+    - FZBase/Fuzz
+  - FZBase/UIButton+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/UIImage+Fuzz
+  - FZBase/UICollectionView+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/UIColor+Fuzz (0.4.22):
+    - FZBase/Fuzz
+  - FZBase/UIDevice+Fuzz (0.4.22):
+    - FZBase/CMMotionManager+Fuzz
+    - FZBase/Fuzz
+  - FZBase/UIFont+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+  - FZBase/UIImage+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/UIImageView+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/NSFileManager+Fuzz
+    - FZBase/NSString+Fuzz
+    - FZBase/NSURLSession+Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/UILabel+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/UITableView+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/UITextView+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/UIView+Fuzz (0.4.22):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+  - FZDebugMenu (0.0.1):
+    - FZBase
+
+DEPENDENCIES:
+  - FZDebugMenu (from `..`)
+
+EXTERNAL SOURCES:
+  FZDebugMenu:
+    :path: ..
+
+SPEC CHECKSUMS:
+  FZBase: 23fd644b25e19d645ee42920c7c958b6cc1555f9
+  FZDebugMenu: e007542713d303fde24a49480d01ce81c95933d5
+
+COCOAPODS: 0.36.0

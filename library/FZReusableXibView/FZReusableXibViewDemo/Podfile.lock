@@ -1,0 +1,14 @@
+PODS:
+  - FZReusableXibView (0.0.1)
+
+DEPENDENCIES:
+  - FZReusableXibView (from `..`)
+
+EXTERNAL SOURCES:
+  FZReusableXibView:
+    :path: ..
+
+SPEC CHECKSUMS:
+  FZReusableXibView: be5afa90f7c7f3ca7dd706e26fc1d1f6c4acd719
+
+COCOAPODS: 0.35.0

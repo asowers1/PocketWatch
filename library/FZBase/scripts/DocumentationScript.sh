@@ -1,0 +1,26 @@
+/usr/local/bin/appledoc \
+--project-name "Fuzz Module Library" \
+--project-company "Fuzz Productions" \
+--company-id "com.fuzzproductions" \
+--output ${PRODUCT_NAME} \
+--ignore *.m \
+--ignore Images \
+--ignore Handlers \
+--ignore iPad \
+--ignore iPhone \
+--ignore Libraries/3rdParty \
+--ignore Models \
+--ignore Scripts \
+--ignore Shared \
+--ignore Extensions \
+--ignore en.lproj \
+--ignore FZModuleLibraryAppDelegate.h \
+--ignore FZModuleLibraryAppDelegate.m \
+--ignore main.m \
+--keep-undocumented-objects \
+--keep-undocumented-members \
+--keep-intermediate-files \
+--no-repeat-first-par \
+--no-warn-invalid-crossref \
+--exit-threshold 2 \
+${PROJECT_DIR}

@@ -1,0 +1,7 @@
+platform :ios, '7.0'
+
+workspace './FZBase'
+
+link_with 'Demo', 'DemoTests'
+pod 'FZBase', :path => '../'
+pod 'AFNetworking'

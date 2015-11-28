@@ -1,0 +1,80 @@
+PODS:
+  - FZBase (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+    - FZBase/FZBaseDemoViewController
+    - FZBase/FZDemoBaseViewController
+    - FZBase/NSArray+Fuzz
+    - FZBase/NSBundle+Fuzz
+    - FZBase/NSDate+Fuzz
+    - FZBase/NSFileManager+Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/NSString+Fuzz
+    - FZBase/NSURL+Fuzz
+    - FZBase/UIButton+Fuzz
+    - FZBase/UIColor+Fuzz
+    - FZBase/UIDevice+Fuzz
+    - FZBase/UIFont+Fuzz
+    - FZBase/UIImage+Fuzz
+    - FZBase/UILabel+Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/Fuzz (HEAD based on 0.1.10)
+  - FZBase/FZBaseDemoViewController (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/FZDemoBaseViewController (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/UIDevice+Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/NSArray+Fuzz (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+  - FZBase/NSBundle+Fuzz (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+  - FZBase/NSDate+Fuzz (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/UIDevice+Fuzz
+  - FZBase/NSFileManager+Fuzz (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+  - FZBase/NSObject+Fuzz (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+  - FZBase/NSString+Fuzz (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+    - FZBase/NSFileManager+Fuzz
+  - FZBase/NSURL+Fuzz (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+    - FZBase/NSFileManager+Fuzz
+  - FZBase/UIButton+Fuzz (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+  - FZBase/UIColor+Fuzz (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+  - FZBase/UIDevice+Fuzz (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+  - FZBase/UIFont+Fuzz (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+  - FZBase/UIImage+Fuzz (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/UILabel+Fuzz (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+    - FZBase/UIView+Fuzz
+  - FZBase/UIView+Fuzz (HEAD based on 0.1.10):
+    - FZBase/Fuzz
+    - FZBase/NSObject+Fuzz
+  - FZCacheHandler (HEAD based on 0.0.2):
+    - FZBase
+
+DEPENDENCIES:
+  - FZBase (HEAD)
+  - FZCacheHandler (HEAD)
+
+SPEC CHECKSUMS:
+  FZBase: ba2e9b55595b3fa46242eebd443b7b9f01abbed7
+  FZCacheHandler: cfa91aa885170808c2e85e6978ec942fe57c280f
+
+COCOAPODS: 0.32.1

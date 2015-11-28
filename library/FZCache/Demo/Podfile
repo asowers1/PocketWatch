@@ -1,0 +1,8 @@
+platform :ios, '7.0'
+workspace './FZCache'
+
+link_with 'FZCacheDemo', 'FZCacheDemoTests'
+
+pod "FZCache"
+pod "AFNetworking", "~> 2.0"
+pod "FZBase"
