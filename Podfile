@@ -18,6 +18,7 @@ pod 'FZDebugMenu', :path => 'library/FZDebugMenu'
 pod 'FZVariableSwitcher', :path => 'library/FZVariableSwitcher'
 pod 'FZCache', :path => 'library/FZCache'
 pod 'pop', '~> 1.0'
+pod 'MBProgressHUD', '~> 0.9.1'
 end
 
 target 'PocketWatchTests' do

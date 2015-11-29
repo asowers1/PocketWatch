@@ -151,6 +151,7 @@ PODS:
   - FZVariableSwitcher (0.0.4):
     - FZAlertView
     - FZBase
+  - MBProgressHUD (0.9.1)
   - PocketAPI (1.0.3)
   - pop (1.0.8)
   - Realm (0.95.2):
@@ -172,6 +173,7 @@ DEPENDENCIES:
   - FZDebugMenu (from `library/FZDebugMenu`)
   - FZReusableXibView (from `library/FZReusableXibView`)
   - FZVariableSwitcher (from `library/FZVariableSwitcher`)
+  - MBProgressHUD (~> 0.9.1)
   - PocketAPI
   - pop (~> 1.0)
   - RealmSwift
@@ -208,6 +210,7 @@ SPEC CHECKSUMS:
   FZDebugMenu: e007542713d303fde24a49480d01ce81c95933d5
   FZReusableXibView: 2f38ff688eba88cee9e99cd3680329c4f61dba46
   FZVariableSwitcher: 5c438fb4842c7073b9a656ea651d69a237c5d231
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   PocketAPI: 561fd4f428a38a4662c5837247c85f9962393f01
   pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
   Realm: 4c026902041bb39c4bd083ebc5e88f4f17973d72

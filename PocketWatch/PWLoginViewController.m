@@ -9,14 +9,15 @@
 #import "PWLoginViewController.h"
 #import "PocketAPI.h"
 #import "PWPocketWrapper.h"
-#import "Realm.h"
+#import "MBProgressHUD.h"
 #import "PocketWatch-Swift.h"
 
 @interface PWLoginViewController ()
-
+@property (nonatomic, strong)  MBProgressHUD *hud;
 @end
 
 @implementation PWLoginViewController
+@synthesize hud;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -48,10 +49,18 @@
 
 -(void)pocketLoginStarted:(NSNotification *)notification{
     // present login loading UI here
+    hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
+        // Do something...
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [MBProgressHUD hideHUDForView:self.view animated:YES];
+        });
+    });
 }
 
 -(void)pocketLoginFinished:(NSNotification *)notification{
     // hide login loading UI here
+    [hud hide:YES];
 }
 
 #pragma mark - actions
