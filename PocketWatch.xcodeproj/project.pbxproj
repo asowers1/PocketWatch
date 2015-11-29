@@ -20,6 +20,7 @@
 		49D5FBF21BBB8067007B21F9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D5FBF11BBB8067007B21F9 /* Security.framework */; };
 		5B06C91C8A51A94C731BC302 /* Pods_PocketWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776FC0E921117F5CE12F96DF /* Pods_PocketWatchTests.framework */; };
 		663507A7677A6E9CFD9256B5 /* Pods_PocketWatchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6379310FF3424976C1AF6DB /* Pods_PocketWatchUITests.framework */; };
+		666602821C0AA84F004E2D7E /* PWObjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666602811C0AA84F004E2D7E /* PWObjectController.swift */; };
 		66908A511C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089D31C08066A00B84D3C /* Mark Simonson - Proxima Nova Alt Black Italic.otf */; };
 		66908A521C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089D41C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Black.otf */; };
 		66908A531C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669089D51C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Bold Italic.otf */; };
@@ -193,6 +194,7 @@
 		49A9D83D1C02B8C400BE3B78 /* PWPocketWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPocketWrapper.h; sourceTree = "<group>"; };
 		49A9D83E1C02B8C400BE3B78 /* PWPocketWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPocketWrapper.m; sourceTree = "<group>"; };
 		49D5FBF11BBB8067007B21F9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		666602811C0AA84F004E2D7E /* PWObjectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWObjectController.swift; sourceTree = "<group>"; };
 		669089D31C08066A00B84D3C /* Mark Simonson - Proxima Nova Alt Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Black Italic.otf"; sourceTree = "<group>"; };
 		669089D41C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Black.otf"; sourceTree = "<group>"; };
 		669089D51C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Bold Italic.otf"; sourceTree = "<group>"; };
@@ -451,6 +453,7 @@
 				49A9D83D1C02B8C400BE3B78 /* PWPocketWrapper.h */,
 				49A9D83E1C02B8C400BE3B78 /* PWPocketWrapper.m */,
 				66908E811C09160900B84D3C /* PWUserController.swift */,
+				666602811C0AA84F004E2D7E /* PWObjectController.swift */,
 			);
 			name = "Model Controllers";
 			sourceTree = "<group>";
@@ -1059,6 +1062,7 @@
 				49A9D83F1C02B8C400BE3B78 /* PWPocketWrapper.m in Sources */,
 				66908E7E1C08CE0900B84D3C /* PWUser.swift in Sources */,
 				66908AD21C08241900B84D3C /* UIColor+PW.m in Sources */,
+				666602821C0AA84F004E2D7E /* PWObjectController.swift in Sources */,
 				4927120F1BB73A990080997C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
