@@ -9,25 +9,29 @@
 import UIKit
 import RealmSwift
 
+// A PWObject represents a save on Pocket
 class PWObject: Object {
-    dynamic var id = 0
-    dynamic var excerpt = ""
-    dynamic var favorite = 0
-    dynamic var given_title = ""
-    dynamic var given_url = ""
-    dynamic var has_image = 0;
-    dynamic var has_video = 0
-    dynamic var is_article = 0
-    dynamic var is_index = 0
-    dynamic var item_id = 0
-    dynamic var resolved_id = 0
-    dynamic var resolved_title = ""
-    dynamic var resolved_url = ""
-    dynamic var sort_id = 0
-    dynamic var status = 0
-    dynamic var time_added = 0
-    dynamic var time_favorited = 0
-    dynamic var time_read = 0
-    dynamic var time_updated = 0
-    dynamic var word_count = 0
+  dynamic var id = 0
+  dynamic var excerpt = ""
+  dynamic var favorite = 0
+  dynamic var given_title = ""
+  dynamic var given_url = ""
+  dynamic var has_image = 0;
+  dynamic var has_video = 0
+  dynamic var is_article = 0
+  dynamic var is_index = 0
+  dynamic var item_id = 0
+  dynamic var resolved_id = 0
+  dynamic var resolved_title = ""
+  dynamic var resolved_url = ""
+  dynamic var sort_id = 0
+  dynamic var status = 0
+  dynamic var time_added = 0
+  dynamic var time_favorited = 0
+  dynamic var time_read = 0
+  dynamic var time_updated = 0
+  dynamic var word_count = 0
+  let images = List<PWImage>()
+  let videos = List<PWVideo>()
+  
 }

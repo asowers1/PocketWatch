@@ -42,10 +42,10 @@ class PWObjectController: NSObject {
     }
     
     // delete a certain object by its pocket id
-    func deleteObject(pocket_id: Int) {
+    func deleteObject(item_id: Int) {
         let realm = try! Realm()
         realm.write {
-            realm.delete(realm.objects(PWObject).filter("pocket_id = \(pocket_id)"))
+            realm.delete(realm.objects(PWObject).filter("item_id = \(item_id)"))
         }
     }
 }
