@@ -15,7 +15,7 @@ class PWVideoController: NSObject {
   static let sharedController = PWVideoController()
   
   // get all objects
-  var allObjects: Results<PWObject> {
+  var allObjects: Results<PWVideo> {
     let realm = try! Realm()
     return realm.objects(PWVideo)
   }
@@ -30,7 +30,7 @@ class PWVideoController: NSObject {
     video.width = width
     video.height = height
     video.vid = vid
-    realm.write {
+    try! realm.write {
       realm.add(video)
     }
   }
@@ -38,7 +38,7 @@ class PWVideoController: NSObject {
   // deletes all <PWImage> objects from the realm
   func deleteObjects() {
     let realm = try! Realm()
-    realm.write {
+    try! realm.write {
       realm.delete(realm.objects(PWVideo))
       
     }
@@ -47,7 +47,7 @@ class PWVideoController: NSObject {
   // delete a certain video by its pocket item_id
   func deleteVideo(item_id: Int) {
     let realm = try! Realm()
-    realm.write {
+    try! realm.write {
       realm.delete(realm.objects(PWVideo).filter("item_id = \(item_id)"))
     }
   }

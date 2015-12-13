@@ -27,7 +27,7 @@ class PWObjectController: NSObject {
     user.user_id = user_id
     user.username = username
     user.phone_number = phone_number
-    realm.write {
+    try! realm.write {
       realm.add(user)
     }
   }
@@ -35,7 +35,7 @@ class PWObjectController: NSObject {
   // deletes all <PWObject> objects from the realm
   func deleteObjects() {
     let realm = try! Realm()
-    realm.write {
+    try! realm.write {
       realm.delete(realm.objects(PWObject))
       
     }
@@ -44,7 +44,7 @@ class PWObjectController: NSObject {
   // delete a certain object by its pocket id
   func deleteObject(item_id: Int) {
     let realm = try! Realm()
-    realm.write {
+    try! realm.write {
       realm.delete(realm.objects(PWObject).filter("item_id = \(item_id)"))
     }
   }

@@ -11,23 +11,16 @@ import RealmSwift
 import Realm
 
 class PWUserController: NSObject {
-
-//    class var sharedController: PWUserController {
-//        struct Static {
-//            static var onceToken: dispatch_once_t = 0
-//            static var instance: PWUserController? = nil
-//        }
-//        dispatch_once(&Static.onceToken) {
-//            Static.instance = PWUserController()
-//        }
-//        return Static.instance!
-//    }
     
     static let sharedController = PWUserController()
     
     var user: PWUser {
-        let realm = try! Realm()
-        return realm.objects(PWUser)[0]
+      let realm = try! Realm()
+      if let users: Results = realm.objects(PWUser) {
+        return users.count > 0 ? users[0] : PWUser()
+      } else {
+        return PWUser()
+      }
     }
     
     func createUser(user_id: Int, username: String, phone_number: String) {
@@ -38,7 +31,7 @@ class PWUserController: NSObject {
         user.user_id = user_id
         user.username = username
         user.phone_number = phone_number
-        realm.write {
+        try! realm.write {
             realm.add(user)
         }
     }
@@ -46,7 +39,7 @@ class PWUserController: NSObject {
     // deletes all 'PWUser' objects from the realm
     func destroyUser() {
         let realm = try! Realm()
-        realm.write {
+        try! realm.write {
             realm.delete(realm.objects(PWUser))
 
         }

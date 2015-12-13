@@ -15,7 +15,7 @@ class PWImageController: NSObject {
   static let sharedController = PWImageController()
   
   // get all objects
-  var allObjects: Results<PWObject> {
+  var allObjects: Results<PWImage> {
     let realm = try! Realm()
     return realm.objects(PWImage)
   }
@@ -30,7 +30,7 @@ class PWImageController: NSObject {
     image.width = width
     image.height = height
     image.credit = credit
-    realm.write {
+    try! realm.write {
       realm.add(image)
     }
   }
@@ -38,7 +38,7 @@ class PWImageController: NSObject {
   // deletes all <PWImage> objects from the realm
   func deleteObjects() {
     let realm = try! Realm()
-    realm.write {
+    try! realm.write {
       realm.delete(realm.objects(PWImage))
       
     }
@@ -47,7 +47,7 @@ class PWImageController: NSObject {
   // delete a certain image by its pocket item_id
   func deleteImage(item_id: Int) {
     let realm = try! Realm()
-    realm.write {
+    try! realm.write {
       realm.delete(realm.objects(PWImage).filter("item_id = \(item_id)"))
     }
   }
