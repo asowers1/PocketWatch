@@ -7,14 +7,14 @@
 //
 
 import UIKit
-
+import RealmSwift
 // A PWVideo represents an video assosiated with an PWObject
 class PWVideo: Object {
-  dynamic var item_id: Int
-  dynamic var video_id: Int
-  dynamic var src: String
-  dynamic var width: Int
-  dynamic var height: Int
-  dynamic var type: Int
-  dynamic var vid: String
+  dynamic var item_id: Int = 0
+  dynamic var video_id: Int = 0
+  dynamic var src: String = ""
+  dynamic var width: Int = 0
+  dynamic var height: Int = 0
+  dynamic var type: Int = 0
+  dynamic var vid: String = ""
 }

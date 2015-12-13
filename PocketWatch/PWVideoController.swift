@@ -7,10 +7,42 @@
 //
 
 import UIKit
+import RealmSwift
+import Realm
 
 class PWVideoController: NSObject {
 
   static let sharedController = PWVideoController()
+  
+  // get all objects
+  var allObjects: Results<PWObject> {
+    let realm = try! Realm()
+    return realm.objects(PWVideo)
+  }
+  
+  // add a new object
+  func addObject(item_id: Int, video_id: Int, src: String, width: Int, height: Int, type: Int, vid: String) {
+    let realm = try! Realm()
+    let video: PWVideo = PWVideo()
+    video.item_id = item_id
+    video.video_id = video_id
+    video.src = src
+    video.width = width
+    video.height = height
+    video.vid = vid
+    realm.write {
+      realm.add(video)
+    }
+  }
+  
+  // deletes all <PWImage> objects from the realm
+  func deleteObjects() {
+    let realm = try! Realm()
+    realm.write {
+      realm.delete(realm.objects(PWVideo))
+      
+    }
+  }
   
   // delete a certain video by its pocket item_id
   func deleteVideo(item_id: Int) {

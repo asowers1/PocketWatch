@@ -1,19 +1,4 @@
 PODS:
-  - AFNetworking (3.0.1):
-    - AFNetworking/NSURLSession (= 3.0.1)
-    - AFNetworking/Reachability (= 3.0.1)
-    - AFNetworking/Security (= 3.0.1)
-    - AFNetworking/Serialization (= 3.0.1)
-    - AFNetworking/UIKit (= 3.0.1)
-  - AFNetworking/NSURLSession (3.0.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.0.1)
-  - AFNetworking/Security (3.0.1)
-  - AFNetworking/Serialization (3.0.1)
-  - AFNetworking/UIKit (3.0.1):
-    - AFNetworking/NSURLSession
   - Crashlytics (3.4.1):
     - Fabric (~> 1.6.0)
   - Fabric (1.6.1)
@@ -134,9 +119,6 @@ PODS:
   - FZBase/UIView+Fuzz (0.4.19):
     - FZBase/Fuzz
     - FZBase/NSObject+Fuzz
-  - FZCache (0.2.9):
-    - AFNetworking
-    - FZBase
   - FZCacheHandler (0.0.1):
     - FZBase
   - FZDebugMenu (0.0.1):
@@ -148,13 +130,13 @@ PODS:
   - MBProgressHUD (0.9.1)
   - PocketAPI (1.0.3)
   - pop (1.0.8)
-  - Realm (0.95.2):
-    - Realm/Headers (= 0.95.2)
-  - Realm/Headers (0.95.2)
-  - RealmSwift (0.95.2):
-    - Realm (= 0.95.2)
+  - Realm (0.96.3):
+    - Realm/Headers (= 0.96.3)
+  - Realm/Headers (0.96.3)
+  - RealmSwift (0.96.3):
+    - Realm (= 0.96.3)
   - SwiftHTTP (1.0.2)
-  - Taplytics (2.7.20)
+  - Taplytics (2.8.6)
 
 DEPENDENCIES:
   - Crashlytics
@@ -162,7 +144,6 @@ DEPENDENCIES:
   - FZActionSheet (from `library/FZActionSheet`)
   - FZAlertView (from `library/FZAlertView`)
   - FZBase (from `library/FZBase`)
-  - FZCache (from `library/FZCache`)
   - FZCacheHandler (from `library/FZCacheHandler`)
   - FZDebugMenu (from `library/FZDebugMenu`)
   - FZReusableXibView (from `library/FZReusableXibView`)
@@ -181,8 +162,6 @@ EXTERNAL SOURCES:
     :path: library/FZAlertView
   FZBase:
     :path: library/FZBase
-  FZCache:
-    :path: library/FZCache
   FZCacheHandler:
     :path: library/FZCacheHandler
   FZDebugMenu:
@@ -193,13 +172,11 @@ EXTERNAL SOURCES:
     :path: library/FZVariableSwitcher
 
 SPEC CHECKSUMS:
-  AFNetworking: 20d8749e03e45f1e5c046ad0b647e0b07bcdd91f
   Crashlytics: 41574a245bc6ae10c55d57f385ebd2004e5bee05
   Fabric: bf0ceb04e7c924090efc5f8c55e4fbcca189e0a0
   FZActionSheet: 06d9f0c5d1dade8850660c844b7950129b2e6084
   FZAlertView: 5f5c6f4a7389965e5870f219695a50bdcc5ffcaf
   FZBase: f719e966c151d33ecd0bf923425b2d9c56887349
-  FZCache: 7df17e4b8c9e9dbd3c8837bae93245f28720e9f3
   FZCacheHandler: eb9ee3a1827dd56546ad590550801c1650683af7
   FZDebugMenu: e007542713d303fde24a49480d01ce81c95933d5
   FZReusableXibView: 2f38ff688eba88cee9e99cd3680329c4f61dba46
@@ -207,9 +184,9 @@ SPEC CHECKSUMS:
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   PocketAPI: 561fd4f428a38a4662c5837247c85f9962393f01
   pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
-  Realm: 4c026902041bb39c4bd083ebc5e88f4f17973d72
-  RealmSwift: ac7822fe7ab8dca7fa979f4d576793b111d6dce1
+  Realm: 145d3cdf78a03aee71bde5381ad7e542bd541720
+  RealmSwift: aab84968aad662f61f36473d1aea019f63481505
   SwiftHTTP: 6d8ca031a9ce613a01e8f18b497503887b0b50c0
-  Taplytics: 97a0340d542fa7375a6bad3db39550e81c498043
+  Taplytics: 450d66ebfef974497c6942adcf20f5a7daff18d3
 
 COCOAPODS: 0.39.0
