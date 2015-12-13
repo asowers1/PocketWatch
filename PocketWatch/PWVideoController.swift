@@ -10,6 +10,8 @@ import UIKit
 
 class PWVideoController: NSObject {
 
+  static let sharedController = PWVideoController()
+  
   // delete a certain video by its pocket item_id
   func deleteVideo(item_id: Int) {
     let realm = try! Realm()
