@@ -10,9 +10,16 @@
 #import <MapKit/MapKit.h>
 #import "PocketWatch-Swift.h"
 
-@interface PWPocketWrapper : MKAnnotationView
 
+@protocol PWPocketWrapperDelegate <NSObject>
+- (void)pocketDidLogin;
+
+@end
+
+@interface PWPocketWrapper : NSObject
+@property (weak, nonatomic) id<PWPocketWrapperDelegate> delegate;
 + (id)sharedWrapper;
 - (void)login;
+
 
 @end

@@ -12,8 +12,10 @@
 #import "MBProgressHUD.h"
 #import "PocketWatch-Swift.h"
 
-@interface PWLoginViewController ()
-@property (nonatomic, strong)  MBProgressHUD *hud;
+@interface PWLoginViewController () <PWPocketWrapperDelegate>
+
+@property (nonatomic, strong) MBProgressHUD *hud;
+@property (nonatomic, strong) PWPocketWrapper *pocketWrapper;
 @end
 
 @implementation PWLoginViewController
@@ -35,7 +37,10 @@
 }
 
 -(void)setup{
-    
+  
+  self.pocketWrapper = [PWPocketWrapper sharedWrapper];
+  self.pocketWrapper.delegate = self;
+  
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(pocketLoginStarted:)
                                                  name:[NSString stringWithFormat:@"%@",PocketAPILoginStartedNotification]
@@ -61,6 +66,10 @@
 
 - (IBAction)loginTapped:(id)sender {
     [[PWPocketWrapper sharedWrapper] login];
+}
+
+- (void)pocketDidLogin {
+  NSLog(@"did login");
 }
 
 /*

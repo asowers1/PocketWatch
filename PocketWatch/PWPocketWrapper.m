@@ -45,7 +45,7 @@
                                              } else {
                                                  NSString *username = [api username];
                                                  [[PWUserController sharedController] createUser:0 username:username phone_number:@""];
-                                               
+                                               [self.delegate pocketDidLogin];
                                              }
                                          }];
         }
