@@ -62,7 +62,7 @@
         <!--Item-->
         <scene sceneID="xnc-fN-9k5">
             <objects>
-                <viewController id="ehq-Ge-r2x" sceneMemberID="viewController">
+                <viewController id="ehq-Ge-r2x" customClass="PWItemViewController" customModule="PocketWatch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ygj-GP-pF4"/>
                         <viewControllerLayoutGuide type="bottom" id="CaJ-Yg-tek"/>
@@ -114,12 +114,12 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2c1-dX-Vwa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1019" y="385"/>
+            <point key="canvasLocation" x="1031" y="385"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Base Navigation Controller-->
         <scene sceneID="KMx-vU-ZfE">
             <objects>
-                <navigationController id="UWP-0z-W4j" sceneMemberID="viewController">
+                <navigationController id="UWP-0z-W4j" customClass="PWBaseNavigationController" customModule="PocketWatch" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WEm-6Y-hjP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -130,7 +130,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WwW-AI-h7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="361" y="385"/>
+            <point key="canvasLocation" x="333" y="385"/>
         </scene>
     </scenes>
     <resources>

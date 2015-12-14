@@ -22,6 +22,8 @@
 		49CFFE831C0B6130003255B3 /* PWImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CFFE821C0B6130003255B3 /* PWImage.swift */; };
 		49CFFE851C0B613C003255B3 /* PWVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CFFE841C0B613C003255B3 /* PWVideo.swift */; };
 		49D5FBF21BBB8067007B21F9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D5FBF11BBB8067007B21F9 /* Security.framework */; };
+		49D875181C1E164D0021353E /* PWItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D875171C1E164D0021353E /* PWItemViewController.swift */; };
+		49D8751A1C1E4B200021353E /* PWBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D875191C1E4B200021353E /* PWBaseNavigationController.swift */; };
 		5B06C91C8A51A94C731BC302 /* Pods_PocketWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776FC0E921117F5CE12F96DF /* Pods_PocketWatchTests.framework */; };
 		663507A7677A6E9CFD9256B5 /* Pods_PocketWatchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6379310FF3424976C1AF6DB /* Pods_PocketWatchUITests.framework */; };
 		666602821C0AA84F004E2D7E /* PWObjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666602811C0AA84F004E2D7E /* PWObjectController.swift */; };
@@ -202,6 +204,8 @@
 		49CFFE821C0B6130003255B3 /* PWImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWImage.swift; sourceTree = "<group>"; };
 		49CFFE841C0B613C003255B3 /* PWVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWVideo.swift; sourceTree = "<group>"; };
 		49D5FBF11BBB8067007B21F9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		49D875171C1E164D0021353E /* PWItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWItemViewController.swift; sourceTree = "<group>"; };
+		49D875191C1E4B200021353E /* PWBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWBaseNavigationController.swift; sourceTree = "<group>"; };
 		666602811C0AA84F004E2D7E /* PWObjectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWObjectController.swift; sourceTree = "<group>"; };
 		669089D31C08066A00B84D3C /* Mark Simonson - Proxima Nova Alt Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Black Italic.otf"; sourceTree = "<group>"; };
 		669089D41C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Alt Black.otf"; sourceTree = "<group>"; };
@@ -451,8 +455,8 @@
 			children = (
 				66908E7D1C08CE0900B84D3C /* PWUser.swift */,
 				66908E7F1C08CE8300B84D3C /* PWObject.swift */,
-				49CFFE821C0B6130003255B3 /* PWImage.swift */,
 				49CFFE841C0B613C003255B3 /* PWVideo.swift */,
+				49CFFE821C0B6130003255B3 /* PWImage.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -482,6 +486,8 @@
 			children = (
 				492712161BB73A990080997C /* Main.storyboard */,
 				4927121B1BB73A990080997C /* LaunchScreen.storyboard */,
+				49D875191C1E4B200021353E /* PWBaseNavigationController.swift */,
+				49D875171C1E164D0021353E /* PWItemViewController.swift */,
 				499B9ABB1BC2329E007772BE /* PWLoginViewController.h */,
 				499B9ABC1BC2329E007772BE /* PWLoginViewController.m */,
 			);
@@ -1073,11 +1079,13 @@
 				499B9ABD1BC2329E007772BE /* PWLoginViewController.m in Sources */,
 				492628601C15291F005943E9 /* PWImageController.swift in Sources */,
 				492628621C152B63005943E9 /* PWVideoController.swift in Sources */,
+				49D875181C1E164D0021353E /* PWItemViewController.swift in Sources */,
 				66908E821C09160900B84D3C /* PWUserController.swift in Sources */,
 				49A9D83F1C02B8C400BE3B78 /* PWPocketWrapper.m in Sources */,
 				66908E7E1C08CE0900B84D3C /* PWUser.swift in Sources */,
 				66908AD21C08241900B84D3C /* UIColor+PW.m in Sources */,
 				666602821C0AA84F004E2D7E /* PWObjectController.swift in Sources */,
+				49D8751A1C1E4B200021353E /* PWBaseNavigationController.swift in Sources */,
 				49CFFE831C0B6130003255B3 /* PWImage.swift in Sources */,
 				4927120F1BB73A990080997C /* main.m in Sources */,
 			);
@@ -1154,6 +1162,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -1198,6 +1207,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1224,13 +1234,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PocketWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.PocketWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "PocketWatch/PocketWatch-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/andrew/Box/PocketWatch/PocketWatch/PocketWatch-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -1243,13 +1254,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PocketWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.PocketWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "PocketWatch/PocketWatch-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/andrew/Box/PocketWatch/PocketWatch/PocketWatch-Bridging-Header.h";
 			};
 			name = Release;
 		};

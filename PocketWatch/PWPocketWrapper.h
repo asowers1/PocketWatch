@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
-#import "PocketWatch-Swift.h"
 
 
 @protocol PWPocketWrapperDelegate <NSObject>
+
+@optional
 - (void)pocketDidLogin;
+- (void)pocketDidGetData;
+- (void)pocketDidSaveData;
 
 @end
 
@@ -20,6 +23,6 @@
 @property (weak, nonatomic) id<PWPocketWrapperDelegate> delegate;
 + (id)sharedWrapper;
 - (void)login;
-
+- (void)getPocketData;
 
 @end

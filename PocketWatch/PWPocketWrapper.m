@@ -29,28 +29,40 @@
         if (error != nil) {
             
         } else {
-            
-            NSString *apiMethod = @"get";
-            PocketAPIHTTPMethod httpMethod = PocketAPIHTTPMethodGET; // usually PocketAPIHTTPMethodPOST
-            NSDictionary *arguments = nil;
-            
-            [[PocketAPI sharedAPI] callAPIMethod:apiMethod
-                                  withHTTPMethod:httpMethod
-                                       arguments:arguments
-                                         handler: ^(PocketAPI *api, NSString *apiMethod,
-                                                    NSDictionary *response, NSError *error){
-                                             // handle the response here
-                                             if (error) {
-                                                 NSLog(@"error: %@",error.localizedDescription);
-                                             } else {
-                                                 NSString *username = [api username];
-                                                 [[PWUserController sharedController] createUser:0 username:username phone_number:@""];
-                                               [self.delegate pocketDidLogin];
-                                             }
-                                         }];
+            [self.delegate pocketDidLogin];
         }
     }];
+}
 
+- (void)getPocketData {
+  NSString *apiMethod = @"get";
+  PocketAPIHTTPMethod httpMethod = PocketAPIHTTPMethodGET; // usually PocketAPIHTTPMethodPOST
+  NSDictionary *arguments = nil;
+  
+  [[PocketAPI sharedAPI] callAPIMethod:apiMethod
+                        withHTTPMethod:httpMethod
+                             arguments:arguments
+                               handler: ^(PocketAPI *api, NSString *apiMethod,
+                                          NSDictionary *response, NSError *error){
+                                 // handle the response here
+                                 if (error) {
+                                   NSLog(@"error: %@",error.localizedDescription);
+                                 } else {
+                                   // save models
+                                   [self saveModelToDefaultRealm:response];
+                                   [self.delegate pocketDidGetData];
+                                 }
+                               }];
+}
+
+- (void)saveModelToDefaultRealm:(NSDictionary *)data {
+  //NSLog(@"data: %@",data);
+  for (NSString * item_id in data[@"list"]) {
+    for (NSDictionary *item in data[@"list"][item_id]) {
+      NSLog(@"data for %@: %@: %@",item_id, item, data[@"list"][item_id][item]);
+    }
+  }
+  [self.delegate pocketDidSaveData];
 }
 
 @end
