@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 /**
  *  FLXImageCache is reponsible for fetching as well as caching images. It will asynchronizly fetch image if image requested is not found.

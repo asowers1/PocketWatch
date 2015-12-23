@@ -22,6 +22,7 @@ pod 'pop', '~> 1.0'
 pod 'MBProgressHUD', '~> 0.9.1'
 pod 'RESideMenu', '~> 4.0.7'
 pod 'Koloda', '~> 2.0.6'
+pod 'AFNetworking', '2.6.0'
 end
 
 target 'PocketWatchTests' do
