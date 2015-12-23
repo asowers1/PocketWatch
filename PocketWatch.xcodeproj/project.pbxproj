@@ -17,6 +17,14 @@
 		4927121D1BB73A990080997C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4927121B1BB73A990080997C /* LaunchScreen.storyboard */; };
 		492712281BB73A990080997C /* PocketWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 492712271BB73A990080997C /* PocketWatchTests.m */; };
 		492712331BB73A990080997C /* PocketWatchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 492712321BB73A990080997C /* PocketWatchUITests.m */; };
+		494F538C1C29FE1E00F8009F /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F538A1C29FE1E00F8009F /* CustomKolodaView.swift */; };
+		494F538D1C29FE1E00F8009F /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F538B1C29FE1E00F8009F /* CustomOverlayView.swift */; };
+		494F538F1C29FE2600F8009F /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F538E1C29FE2600F8009F /* ExampleOverlayView.swift */; };
+		494F53911C29FE2F00F8009F /* BackgroundAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F53901C29FE2F00F8009F /* BackgroundAnimationViewController.swift */; };
+		494F53951C2A220F00F8009F /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494F53931C2A220F00F8009F /* OverlayView.xib */; };
+		494F53961C2A220F00F8009F /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494F53941C2A220F00F8009F /* CustomOverlayView.xib */; };
+		494F53981C2A607100F8009F /* PWShuffleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F53971C2A607100F8009F /* PWShuffleViewController.swift */; };
+		494F539B1C2A65DB00F8009F /* FLXImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 494F539A1C2A65DB00F8009F /* FLXImageCache.m */; };
 		499B9ABD1BC2329E007772BE /* PWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 499B9ABC1BC2329E007772BE /* PWLoginViewController.m */; };
 		49A9D83F1C02B8C400BE3B78 /* PWPocketWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A9D83E1C02B8C400BE3B78 /* PWPocketWrapper.m */; };
 		49CFFE831C0B6130003255B3 /* PWImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CFFE821C0B6130003255B3 /* PWImage.swift */; };
@@ -197,6 +205,15 @@
 		4927122E1BB73A990080997C /* PocketWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		492712321BB73A990080997C /* PocketWatchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketWatchUITests.m; sourceTree = "<group>"; };
 		492712341BB73A990080997C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494F538A1C29FE1E00F8009F /* CustomKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
+		494F538B1C29FE1E00F8009F /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+		494F538E1C29FE2600F8009F /* ExampleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
+		494F53901C29FE2F00F8009F /* BackgroundAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundAnimationViewController.swift; sourceTree = "<group>"; };
+		494F53931C2A220F00F8009F /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		494F53941C2A220F00F8009F /* CustomOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
+		494F53971C2A607100F8009F /* PWShuffleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWShuffleViewController.swift; sourceTree = "<group>"; };
+		494F53991C2A65DB00F8009F /* FLXImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLXImageCache.h; sourceTree = "<group>"; };
+		494F539A1C2A65DB00F8009F /* FLXImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXImageCache.m; sourceTree = "<group>"; };
 		499B9ABB1BC2329E007772BE /* PWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWLoginViewController.h; sourceTree = "<group>"; };
 		499B9ABC1BC2329E007772BE /* PWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWLoginViewController.m; sourceTree = "<group>"; };
 		49A9D83D1C02B8C400BE3B78 /* PWPocketWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPocketWrapper.h; sourceTree = "<group>"; };
@@ -437,6 +454,17 @@
 			path = PocketWatchUITests;
 			sourceTree = "<group>";
 		};
+		494F53891C29FE0B00F8009F /* Koloda */ = {
+			isa = PBXGroup;
+			children = (
+				494F538A1C29FE1E00F8009F /* CustomKolodaView.swift */,
+				494F538B1C29FE1E00F8009F /* CustomOverlayView.swift */,
+				494F538E1C29FE2600F8009F /* ExampleOverlayView.swift */,
+				494F53901C29FE2F00F8009F /* BackgroundAnimationViewController.swift */,
+			);
+			name = Koloda;
+			sourceTree = "<group>";
+		};
 		49D5FBF31BBB8552007B21F9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -464,6 +492,8 @@
 		49D5FBF51BBB8577007B21F9 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				494F53991C2A65DB00F8009F /* FLXImageCache.h */,
+				494F539A1C2A65DB00F8009F /* FLXImageCache.m */,
 				49A9D83D1C02B8C400BE3B78 /* PWPocketWrapper.h */,
 				49A9D83E1C02B8C400BE3B78 /* PWPocketWrapper.m */,
 				66908E811C09160900B84D3C /* PWUserController.swift */,
@@ -477,6 +507,8 @@
 		49D5FBF61BBB857F007B21F9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				494F53931C2A220F00F8009F /* OverlayView.xib */,
+				494F53941C2A220F00F8009F /* CustomOverlayView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -488,8 +520,10 @@
 				4927121B1BB73A990080997C /* LaunchScreen.storyboard */,
 				49D875191C1E4B200021353E /* PWBaseNavigationController.swift */,
 				49D875171C1E164D0021353E /* PWItemViewController.swift */,
+				494F53971C2A607100F8009F /* PWShuffleViewController.swift */,
 				499B9ABB1BC2329E007772BE /* PWLoginViewController.h */,
 				499B9ABC1BC2329E007772BE /* PWLoginViewController.m */,
+				494F53891C29FE0B00F8009F /* Koloda */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -803,6 +837,7 @@
 				66908AB01C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Semibold.otf in Resources */,
 				66908A871C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Regular Italic.otf in Resources */,
 				66908A601C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Semibold.otf in Resources */,
+				494F53961C2A220F00F8009F /* CustomOverlayView.xib in Resources */,
 				66908AB71C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Extra Condensed Extrabold Italic.otf in Resources */,
 				66908A521C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Black.otf in Resources */,
 				66908A681C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Extrabold.otf in Resources */,
@@ -910,6 +945,7 @@
 				492712181BB73A990080997C /* Main.storyboard in Resources */,
 				66908A731C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Light Italic.otf in Resources */,
 				66908ACA1C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Thin.otf in Resources */,
+				494F53951C2A220F00F8009F /* OverlayView.xib in Resources */,
 				66908A801C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Black.otf in Resources */,
 				66908A771C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Semibold Italic.otf in Resources */,
 			);
@@ -1073,10 +1109,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494F539B1C2A65DB00F8009F /* FLXImageCache.m in Sources */,
 				66908E801C08CE8300B84D3C /* PWObject.swift in Sources */,
+				494F538C1C29FE1E00F8009F /* CustomKolodaView.swift in Sources */,
+				494F53911C29FE2F00F8009F /* BackgroundAnimationViewController.swift in Sources */,
 				492712121BB73A990080997C /* AppDelegate.m in Sources */,
 				49CFFE851C0B613C003255B3 /* PWVideo.swift in Sources */,
 				499B9ABD1BC2329E007772BE /* PWLoginViewController.m in Sources */,
+				494F538D1C29FE1E00F8009F /* CustomOverlayView.swift in Sources */,
 				492628601C15291F005943E9 /* PWImageController.swift in Sources */,
 				492628621C152B63005943E9 /* PWVideoController.swift in Sources */,
 				49D875181C1E164D0021353E /* PWItemViewController.swift in Sources */,
@@ -1085,6 +1125,8 @@
 				66908E7E1C08CE0900B84D3C /* PWUser.swift in Sources */,
 				66908AD21C08241900B84D3C /* UIColor+PW.m in Sources */,
 				666602821C0AA84F004E2D7E /* PWObjectController.swift in Sources */,
+				494F53981C2A607100F8009F /* PWShuffleViewController.swift in Sources */,
+				494F538F1C29FE2600F8009F /* ExampleOverlayView.swift in Sources */,
 				49D8751A1C1E4B200021353E /* PWBaseNavigationController.swift in Sources */,
 				49CFFE831C0B6130003255B3 /* PWImage.swift in Sources */,
 				4927120F1BB73A990080997C /* main.m in Sources */,
@@ -1146,6 +1188,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1191,6 +1234,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1231,6 +1275,7 @@
 			baseConfigurationReference = 3BE6CD44FF5359D85FFE46B9 /* Pods-PocketWatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1251,6 +1296,7 @@
 			baseConfigurationReference = 3AF973394C626F05172AFC57 /* Pods-PocketWatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

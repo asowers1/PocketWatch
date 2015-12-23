@@ -82,7 +82,7 @@ static NSString *FZVARFREEFORM  = @"FREEFORM";
 }
 
 + (NSString *)variableForKey:(NSString *)inKey {
-    [self objectForKey:inKey];
+    return [self objectForKey:inKey];
 }
 
 + (id)objectForKey:(NSString *)key {

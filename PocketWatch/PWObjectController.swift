@@ -20,16 +20,17 @@ class PWObjectController: NSObject {
     return realm.objects(PWObject)
   }
   
-  // add a new object
-  func addObject(user_id: Int, username: String, phone_number: String) {
+  // add a new object to RLM
+  func addObject(object: PWObject) {
     let realm = try! Realm()
-    let user: PWUser = PWUser()
-    user.user_id = user_id
-    user.username = username
-    user.phone_number = phone_number
     try! realm.write {
-      realm.add(user)
+      realm.add(object)
     }
+  }
+  
+  // get a new object
+  internal func getNewObject() -> PWObject {
+    return PWObject()
   }
   
   // deletes all <PWObject> objects from the realm

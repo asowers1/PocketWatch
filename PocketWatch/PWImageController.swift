@@ -14,25 +14,23 @@ class PWImageController: NSObject {
 
   static let sharedController = PWImageController()
   
-  // get all objects
+  // get all images
   var allObjects: Results<PWImage> {
     let realm = try! Realm()
     return realm.objects(PWImage)
   }
   
-  // add a new object
-  func addObject(item_id: Int, image_id: Int, src: String, width: Int, height: Int, credit: String) {
+  // add a new image to RLM
+  func addObject(image: PWImage) {
     let realm = try! Realm()
-    let image: PWImage = PWImage()
-    image.item_id = item_id
-    image.image_id = image_id
-    image.src = src
-    image.width = width
-    image.height = height
-    image.credit = credit
     try! realm.write {
       realm.add(image)
     }
+  }
+  
+  // get a new image
+  func getNewImage() -> PWImage {
+    return PWImage()
   }
   
   // deletes all <PWImage> objects from the realm

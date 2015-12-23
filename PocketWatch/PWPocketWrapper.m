@@ -9,6 +9,7 @@
 #import "PWPocketWrapper.h"
 #import "PocketAPI.h"
 #import "PocketWatch-Swift.h"
+#import "RLMRealm.h"
 
 @implementation PWPocketWrapper
 
@@ -57,10 +58,13 @@
 
 - (void)saveModelToDefaultRealm:(NSDictionary *)data {
   //NSLog(@"data: %@",data);
+  PWObjectController *objectController = [PWObjectController sharedController];
   for (NSString * item_id in data[@"list"]) {
-    for (NSDictionary *item in data[@"list"][item_id]) {
-      NSLog(@"data for %@: %@: %@",item_id, item, data[@"list"][item_id][item]);
+    PWObject *savedObject = [objectController getNewObject];
+    for (NSString *item in data[@"list"][item_id]) {
+      [savedObject setValue:data[@"list"][item_id][item] forKey:item];
     }
+    [objectController addObject:savedObject];
   }
   [self.delegate pocketDidSaveData];
 }

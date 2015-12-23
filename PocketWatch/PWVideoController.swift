@@ -20,19 +20,17 @@ class PWVideoController: NSObject {
     return realm.objects(PWVideo)
   }
   
-  // add a new object
-  func addObject(item_id: Int, video_id: Int, src: String, width: Int, height: Int, type: Int, vid: String) {
+  // add a new video to RLM
+  func addObject(video: PWVideo) {
     let realm = try! Realm()
-    let video: PWVideo = PWVideo()
-    video.item_id = item_id
-    video.video_id = video_id
-    video.src = src
-    video.width = width
-    video.height = height
-    video.vid = vid
     try! realm.write {
       realm.add(video)
     }
+  }
+  
+  // get a new video
+  func getNewVideo() -> PWVideo {
+    return PWVideo()
   }
   
   // deletes all <PWImage> objects from the realm

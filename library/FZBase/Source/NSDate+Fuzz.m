@@ -228,7 +228,7 @@ static FZDateFormatter *_dateFormatter = nil;
 - (NSInteger)weekDayInteger
 {
 	NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
-	NSDateComponents *comps = [gregorian components:NSWeekdayCalendarUnit fromDate:self];
+	NSDateComponents *comps = [gregorian components:NSCalendarUnitWeekday fromDate:self];
 	NSInteger weekday = [comps weekday]; // Sunday is 1, Monday is 2 ... Saturday is 7
 	return weekday;
 }
@@ -236,7 +236,7 @@ static FZDateFormatter *_dateFormatter = nil;
 - (NSInteger)daysInMonth
 {
 	NSInteger rtnDayCount;
-	NSRange tmpDayRange = [[[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian] rangeOfUnit:NSDayCalendarUnit inUnit:NSMonthCalendarUnit forDate:self];
+	NSRange tmpDayRange = [[[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian] rangeOfUnit:NSCalendarUnitDay inUnit:NSCalendarUnitMonth forDate:self];
 	rtnDayCount = tmpDayRange.length;
 	return rtnDayCount;
 }
@@ -397,45 +397,45 @@ static FZDateFormatter *_dateFormatter = nil;
 
 - (NSInteger)secondsSinceDate:(NSDate*)inDate
 {
-    return [[self differenceInUnit:NSSecondCalendarUnit sinceDate:inDate] second];
+    return [[self differenceInUnit:NSCalendarUnitSecond sinceDate:inDate] second];
 }
 
 
 - (NSInteger)minuteSinceDate:(NSDate*)inDate
 {
-    return [[self differenceInUnit:NSMinuteCalendarUnit sinceDate:inDate] minute];
+    return [[self differenceInUnit:NSCalendarUnitMinute sinceDate:inDate] minute];
 }
 
 
 
 - (NSInteger)hoursSinceDate:(NSDate*)inDate
 {
-    return [[self differenceInUnit:NSHourCalendarUnit sinceDate:inDate] hour];
+    return [[self differenceInUnit:NSCalendarUnitHour sinceDate:inDate] hour];
 }
 
 
 - (NSInteger)daysSinceDate:(NSDate*)inDate
 {
-    return [[self differenceInUnit:NSDayCalendarUnit sinceDate:inDate] day];
+    return [[self differenceInUnit:NSCalendarUnitDay sinceDate:inDate] day];
 }
 
 
 
 - (NSInteger)weeksSinceDate:(NSDate*)inDate
 {
-    return [[self differenceInUnit:NSWeekOfYearCalendarUnit sinceDate:inDate] weekOfYear];
+    return [[self differenceInUnit:NSCalendarUnitDay sinceDate:inDate] weekOfYear];
 }
 
 
 - (NSInteger)monthsSinceDate:(NSDate*)inDate
 {
-	return [[self differenceInUnit:NSMonthCalendarUnit sinceDate:inDate] month];
+	return [[self differenceInUnit:NSCalendarUnitMonth sinceDate:inDate] month];
 }
 
 
 - (NSInteger)yearsSinceDate:(NSDate*)inDate
 {
-    return [[self differenceInUnit:NSYearCalendarUnit sinceDate:inDate] year];
+    return [[self differenceInUnit:NSCalendarUnitYear sinceDate:inDate] year];
 }
 
 #pragma mark - Basic date differences

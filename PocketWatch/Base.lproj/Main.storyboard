@@ -57,7 +57,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-323" y="385"/>
+            <point key="canvasLocation" x="-383" y="379"/>
         </scene>
         <!--Item-->
         <scene sceneID="xnc-fN-9k5">
@@ -81,6 +81,7 @@
         <!--Shuffle-->
         <scene sceneID="5vY-Zn-J3h">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bVB-Cj-BhL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="1sj-LC-ck7" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wHd-Lz-nXa"/>
@@ -93,7 +94,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Shuffle" id="oL9-G3-7gh"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bVB-Cj-BhL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1839" y="715"/>
         </scene>
@@ -130,7 +130,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WwW-AI-h7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="333" y="385"/>
+            <point key="canvasLocation" x="333" y="379"/>
         </scene>
     </scenes>
     <resources>

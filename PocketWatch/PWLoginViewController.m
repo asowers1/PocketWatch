@@ -22,63 +22,81 @@
 @synthesize hud;
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    [self determinLoginStatus];
-    [self setup];
+  [super viewDidLoad];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+  [super viewWillAppear:animated];
+  [self determinLoginStatus];
+  [self setup];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+  if ([[PocketAPI sharedAPI] isLoggedIn]) {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    [self proceedToNav];
+  }
 }
 
 - (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  [super didReceiveMemoryWarning];
+  // Dispose of any resources that can be recreated.
 }
 
 - (void)determinLoginStatus {
-    NSLog(@"user: %@",[[PWUserController sharedController] user]);
+  NSLog(@"user: %@",[[PWUserController sharedController] user]);
 }
 
 -(void)setup{
   
+  [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+  
   self.pocketWrapper = [PWPocketWrapper sharedWrapper];
   self.pocketWrapper.delegate = self;
   
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(pocketLoginStarted:)
-                                                 name:[NSString stringWithFormat:@"%@",PocketAPILoginStartedNotification]
-                                               object:nil];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(pocketLoginFinished:)
-                                                 name:[NSString stringWithFormat:@"%@",PocketAPILoginFinishedNotification]
-                                               object:nil];
+  
+  [[NSNotificationCenter defaultCenter] addObserver:self
+                                           selector:@selector(pocketLoginStarted:)
+                                               name:[NSString stringWithFormat:@"%@",PocketAPILoginStartedNotification]
+                                             object:nil];
+  
+  [[NSNotificationCenter defaultCenter] addObserver:self
+                                           selector:@selector(pocketLoginFinished:)
+                                               name:[NSString stringWithFormat:@"%@",PocketAPILoginFinishedNotification]
+                                             object:nil];
 }
 
 -(void)pocketLoginStarted:(NSNotification *)notification{
-    // present login loading UI here
-    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+  // present login loading UI here
+  [MBProgressHUD showHUDAddedTo:self.view animated:YES];
 }
 
 -(void)pocketLoginFinished:(NSNotification *)notification{
-    // hide login loading UI here
-     [MBProgressHUD hideHUDForView:self.view animated:YES];
+  // hide login loading UI here
+  [MBProgressHUD hideHUDForView:self.view animated:YES];
 }
 
 #pragma mark - actions
 
 - (IBAction)loginTapped:(id)sender {
-    [[PWPocketWrapper sharedWrapper] login];
+  [[PWPocketWrapper sharedWrapper] login];
 }
+
+#pragma mark - other
 
 - (void)pocketDidLogin {
   NSLog(@"did login");
+  [self proceedToNav];
+}
+
+#pragma mark - Navigation
+
+- (void)proceedToNav {
   [self performSegueWithIdentifier:@"proceedToNav" sender:self];
 }
 
-
-#pragma mark - Navigation
- 
-
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-  self.pocketWrapper.delegate = nil;
+  [MBProgressHUD hideHUDForView:self.view animated:YES];
 }
 
 
