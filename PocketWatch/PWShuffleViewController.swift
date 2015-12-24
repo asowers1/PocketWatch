@@ -32,10 +32,6 @@ class PWShuffleViewController: UIViewController {
   @IBAction func rightButtonTapped() {
     kolodaView?.swipe(SwipeResultDirection.Right)
   }
-  
-  @IBAction func undoButtonTapped() {
-    kolodaView?.revertAction()
-  }
 }
 
 //MARK: KolodaViewDelegate

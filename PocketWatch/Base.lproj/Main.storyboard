@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Mark Simonson - Proxima Nova Regular.otf">
@@ -78,25 +79,6 @@
             </objects>
             <point key="canvasLocation" x="1839" y="6"/>
         </scene>
-        <!--Shuffle-->
-        <scene sceneID="5vY-Zn-J3h">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bVB-Cj-BhL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="1sj-LC-ck7" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="wHd-Lz-nXa"/>
-                        <viewControllerLayoutGuide type="bottom" id="HyD-1a-bsG"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="u58-k1-Dz4">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Shuffle" id="oL9-G3-7gh"/>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="1839" y="715"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8fm-s3-0sY">
             <objects>
@@ -108,7 +90,6 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="1sj-LC-ck7" kind="relationship" relationship="viewControllers" id="xN0-GF-l4Z"/>
                         <segue destination="ehq-Ge-r2x" kind="relationship" relationship="viewControllers" id="5BL-I1-seo"/>
                     </connections>
                 </tabBarController>
@@ -125,15 +106,88 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="RXL-3U-ck6" kind="relationship" relationship="rootViewController" id="buy-RE-jLe"/>
+                        <segue destination="9GU-GO-yPO" kind="relationship" relationship="rootViewController" id="xiC-Q3-by1"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WwW-AI-h7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="333" y="379"/>
         </scene>
+        <!--Shuffle View Controller-->
+        <scene sceneID="h0v-am-7EU">
+            <objects>
+                <viewController id="9GU-GO-yPO" customClass="PWShuffleViewController" customModule="PocketWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VeN-GS-hSh"/>
+                        <viewControllerLayoutGuide type="bottom" id="KJt-yX-TLF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uVD-hR-UVL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iAs-m5-LTC">
+                                <rect key="frame" x="100" y="408" width="120" height="32"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8t-LX-6w4">
+                                        <rect key="frame" x="88" y="0.0" width="32" height="32"/>
+                                        <state key="normal" image="btn_like_normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" image="btn_like_pressed"/>
+                                        <connections>
+                                            <action selector="rightButtonTapped" destination="9GU-GO-yPO" eventType="touchUpInside" id="7BI-CS-DFK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHt-X9-zVo">
+                                        <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                        <state key="normal" image="btn_skip_normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" image="btn_skip_pressed"/>
+                                        <connections>
+                                            <action selector="leftButtonTapped" destination="9GU-GO-yPO" eventType="touchUpInside" id="zGE-B5-1k5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="8rp-QV-bYg"/>
+                                    <constraint firstAttribute="width" constant="120" id="Dzo-8A-byU"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P7P-oq-5P5" customClass="KolodaView" customModule="Koloda">
+                                <rect key="frame" x="18" y="64" width="284" height="320"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="P7P-oq-5P5" secondAttribute="height" multiplier="71:80" id="qCB-oD-JiI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13725490200000001" green="0.1529411765" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="iAs-m5-LTC" secondAttribute="centerX" id="KMc-y0-jew"/>
+                            <constraint firstItem="P7P-oq-5P5" firstAttribute="leading" secondItem="uVD-hR-UVL" secondAttribute="leading" constant="18" id="Obi-14-ya9"/>
+                            <constraint firstItem="P7P-oq-5P5" firstAttribute="top" secondItem="VeN-GS-hSh" secondAttribute="bottom" id="X9H-vD-6iJ"/>
+                            <constraint firstItem="iAs-m5-LTC" firstAttribute="top" secondItem="P7P-oq-5P5" secondAttribute="bottom" constant="24" id="eSE-6c-gta"/>
+                            <constraint firstAttribute="trailing" secondItem="P7P-oq-5P5" secondAttribute="trailing" constant="18" id="gjR-Te-hX1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="yPu-eh-Cpd"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="kolodaView" destination="P7P-oq-5P5" id="LK0-70-Q5f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9O6-M5-HWh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="891" y="1156"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="btn_like_normal" width="32" height="32"/>
+        <image name="btn_like_pressed" width="32" height="32"/>
+        <image name="btn_skip_normal" width="32" height="32"/>
+        <image name="btn_skip_pressed" width="32" height="32"/>
         <image name="logo" width="1142" height="727"/>
     </resources>
 </document>
