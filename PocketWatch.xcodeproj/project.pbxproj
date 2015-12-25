@@ -23,6 +23,9 @@
 		4968A01A1C2BB3BE0033458D /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4968A0191C2BB3BE0033458D /* CustomOverlayView.xib */; };
 		4968A01C1C2BB43B0033458D /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4968A01B1C2BB43B0033458D /* OverlayView.xib */; };
 		4968A01E1C2BB44C0033458D /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968A01D1C2BB44C0033458D /* ExampleOverlayView.swift */; };
+		4968A0201C2C95B10033458D /* PWKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4968A01F1C2C95B10033458D /* PWKolodaView.swift */; };
+		4968A0221C2C95C90033458D /* PWKolodaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4968A0211C2C95C90033458D /* PWKolodaView.xib */; };
+		4968A0241C2CAABD0033458D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4968A0231C2CAABD0033458D /* QuartzCore.framework */; };
 		499B9ABD1BC2329E007772BE /* PWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 499B9ABC1BC2329E007772BE /* PWLoginViewController.m */; };
 		49A9D83F1C02B8C400BE3B78 /* PWPocketWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A9D83E1C02B8C400BE3B78 /* PWPocketWrapper.m */; };
 		49CFFE831C0B6130003255B3 /* PWImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CFFE821C0B6130003255B3 /* PWImage.swift */; };
@@ -210,6 +213,9 @@
 		4968A0191C2BB3BE0033458D /* CustomOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
 		4968A01B1C2BB43B0033458D /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
 		4968A01D1C2BB44C0033458D /* ExampleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
+		4968A01F1C2C95B10033458D /* PWKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWKolodaView.swift; sourceTree = "<group>"; };
+		4968A0211C2C95C90033458D /* PWKolodaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PWKolodaView.xib; sourceTree = "<group>"; };
+		4968A0231C2CAABD0033458D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		499B9ABB1BC2329E007772BE /* PWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWLoginViewController.h; sourceTree = "<group>"; };
 		499B9ABC1BC2329E007772BE /* PWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWLoginViewController.m; sourceTree = "<group>"; };
 		49A9D83D1C02B8C400BE3B78 /* PWPocketWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPocketWrapper.h; sourceTree = "<group>"; };
@@ -364,6 +370,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4968A0241C2CAABD0033458D /* QuartzCore.framework in Frameworks */,
 				49D5FBF21BBB8067007B21F9 /* Security.framework in Frameworks */,
 				1A9C1B9E1A1BAC348A3613EA /* Pods_PocketWatch.framework in Frameworks */,
 			);
@@ -455,6 +462,7 @@
 			children = (
 				4968A01D1C2BB44C0033458D /* ExampleOverlayView.swift */,
 				4968A0171C2BB0FC0033458D /* CustomOverlayView.swift */,
+				4968A01F1C2C95B10033458D /* PWKolodaView.swift */,
 			);
 			name = Koloda;
 			sourceTree = "<group>";
@@ -503,6 +511,7 @@
 			children = (
 				4968A0191C2BB3BE0033458D /* CustomOverlayView.xib */,
 				4968A01B1C2BB43B0033458D /* OverlayView.xib */,
+				4968A0211C2C95C90033458D /* PWKolodaView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -675,6 +684,7 @@
 		9CFD4D0379C4D1250D939740 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4968A0231C2CAABD0033458D /* QuartzCore.framework */,
 				49D5FBF11BBB8067007B21F9 /* Security.framework */,
 				9F3FC960A519D8152C00E69B /* Pods_PocketWatch.framework */,
 				776FC0E921117F5CE12F96DF /* Pods_PocketWatchTests.framework */,
@@ -816,6 +826,7 @@
 				66908A8D1C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Black Italic.otf in Resources */,
 				66908A651C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Extra Condensed Bold Italic.otf in Resources */,
 				66908A5E1C08066B00B84D3C /* Mark Simonson - Proxima Nova Alt Condensed Regular.otf in Resources */,
+				4968A0221C2C95C90033458D /* PWKolodaView.xib in Resources */,
 				66908A841C08066B00B84D3C /* Mark Simonson - Proxima Nova Condensed Extrabold.otf in Resources */,
 				66908A941C08066B00B84D3C /* Mark Simonson - Proxima Nova Extra Condensed Light.otf in Resources */,
 				66908AB11C08066B00B84D3C /* Mark Simonson - Proxima Nova ScOsf Condensed Thin Italic.otf in Resources */,
@@ -1108,6 +1119,7 @@
 				492712121BB73A990080997C /* AppDelegate.m in Sources */,
 				49CFFE851C0B613C003255B3 /* PWVideo.swift in Sources */,
 				499B9ABD1BC2329E007772BE /* PWLoginViewController.m in Sources */,
+				4968A0201C2C95B10033458D /* PWKolodaView.swift in Sources */,
 				492628601C15291F005943E9 /* PWImageController.swift in Sources */,
 				492628621C152B63005943E9 /* PWVideoController.swift in Sources */,
 				49D875181C1E164D0021353E /* PWItemViewController.swift in Sources */,

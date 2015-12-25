@@ -19,4 +19,12 @@
     return [UIColor colorFromHexString:@"#509182"];
 }
 
++ (UIColor *)PWGreen {
+  return [UIColor colorFromHexString:@"#6eac97"];
+}
+
++ (UIColor *)PWBrown {
+  return [UIColor colorFromHexString:@"#29202a"];
+}
+
 @end

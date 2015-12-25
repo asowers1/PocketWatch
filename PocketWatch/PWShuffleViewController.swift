@@ -8,10 +8,19 @@
 
 import UIKit
 import Koloda
+import RealmSwift
 
-private var numberOfCards: UInt = 5
-
-class PWShuffleViewController: UIViewController {
+class PWShuffleViewController: UIViewController, PWPocketWrapperDelegate {
+  
+  let objectController: PWObjectController = PWObjectController.sharedController
+  
+  var objectData: Results<PWObject> {
+    get {
+      return objectController.allObjects
+    }
+  }
+  
+  var numberOfCards: UInt = 0
   
   @IBOutlet weak var kolodaView: KolodaView!
   
@@ -20,6 +29,8 @@ class PWShuffleViewController: UIViewController {
     
     kolodaView.dataSource = self
     kolodaView.delegate = self
+    
+    numberOfCards = UInt(self.objectData.count)
     
     self.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal
   }
@@ -32,6 +43,14 @@ class PWShuffleViewController: UIViewController {
   @IBAction func rightButtonTapped() {
     kolodaView?.swipe(SwipeResultDirection.Right)
   }
+  
+  func pocketDidGetData() {
+    // did get new data
+  }
+  
+  func pocketDidSaveData() {
+    // did save new data - this is where we should reload data
+  }
 }
 
 //MARK: KolodaViewDelegate
@@ -40,7 +59,7 @@ extension PWShuffleViewController: KolodaViewDelegate {
   func koloda(koloda: KolodaView, didSwipedCardAtIndex index: UInt, inDirection direction: SwipeResultDirection) {
     //Example: loading more cards
     if index >= 3 {
-      numberOfCards = 6
+      numberOfCards = UInt(self.objectData.count)
       kolodaView.reloadData()
     }
   }
@@ -63,11 +82,16 @@ extension PWShuffleViewController: KolodaViewDataSource {
   }
   
   func koloda(koloda: KolodaView, viewForCardAtIndex index: UInt) -> UIView {
-    return UIImageView(image: UIImage(named: "Card_like_\(index + 1)"))
+    let view = NSBundle.mainBundle().loadNibNamed("PWKolodaView", owner: self, options: nil)[0] as! PWKolodaView
+    
+    let object: PWObject = self.objectData[Int(index)] as PWObject
+      
+    view.setTitle(object.resolved_title)
+    return view
   }
   
   func koloda(koloda: KolodaView, viewForCardOverlayAtIndex index: UInt) -> OverlayView? {
-    return NSBundle.mainBundle().loadNibNamed("OverlayView",
+    return NSBundle.mainBundle().loadNibNamed("CustomOverlayView",
       owner: self, options: nil)[0] as? OverlayView
   }
 }

@@ -17,9 +17,7 @@ class PWBaseNavigationController: UINavigationController, PWPocketWrapperDelegat
     // get latest data
     let allObjects = objectController.allObjects
     if allObjects.count > 0 {
-      for object in allObjects {
-        NSLog("object: %@", object.resolved_url)
-      }
+      
     } else {
       self.pocketWrapper.getPocketData()
     }

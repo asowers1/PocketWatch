@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Mark Simonson - Proxima Nova Regular.otf">
+            <string>ProximaNova-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PWKolodaView" customModule="PocketWatch">
+            <rect key="frame" x="0.0" y="0.0" width="281" height="299"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o6C-FM-W7s">
+                    <rect key="frame" x="8" y="8" width="265" height="237"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="o6C-FM-W7s" secondAttribute="height" multiplier="265:237" id="KJ0-8B-Ivf"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="KJ0-8B-Ivf"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcu-cX-UoW">
+                    <rect key="frame" x="8" y="253" width="265" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="V0K-0A-fPB"/>
+                        <constraint firstAttribute="width" secondItem="hcu-cX-UoW" secondAttribute="height" multiplier="265:38" id="aJ8-yW-6vm"/>
+                        <constraint firstAttribute="height" constant="38" id="grD-Xp-u8v"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="32"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="aJ8-yW-6vm"/>
+                            <exclude reference="grD-Xp-u8v"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="hcu-cX-UoW" secondAttribute="bottom" constant="8" id="2c5-JM-Xav"/>
+                <constraint firstAttribute="trailing" secondItem="hcu-cX-UoW" secondAttribute="trailing" constant="8" id="Mtk-a5-iK5"/>
+                <constraint firstItem="o6C-FM-W7s" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="SsT-nF-4hU"/>
+                <constraint firstItem="o6C-FM-W7s" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="V6m-DR-PvU"/>
+                <constraint firstItem="hcu-cX-UoW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="b9K-GT-deP"/>
+                <constraint firstItem="hcu-cX-UoW" firstAttribute="top" secondItem="o6C-FM-W7s" secondAttribute="bottom" constant="8" id="deu-G7-Dm6"/>
+                <constraint firstAttribute="trailing" secondItem="o6C-FM-W7s" secondAttribute="trailing" constant="8" id="zUO-q6-Er8"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cardImageView" destination="o6C-FM-W7s" id="cJ4-Hq-nm6"/>
+                <outlet property="cardTitle" destination="hcu-cX-UoW" id="qJy-PH-k2Z"/>
+            </connections>
+            <point key="canvasLocation" x="132.5" y="159.5"/>
+        </view>
+    </objects>
+</document>

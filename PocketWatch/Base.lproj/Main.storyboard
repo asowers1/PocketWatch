@@ -126,7 +126,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iAs-m5-LTC">
-                                <rect key="frame" x="100" y="408" width="120" height="32"/>
+                                <rect key="frame" x="100" y="480" width="120" height="32"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8t-LX-6w4">
                                         <rect key="frame" x="88" y="0.0" width="32" height="32"/>
@@ -156,21 +156,35 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P7P-oq-5P5" customClass="KolodaView" customModule="Koloda">
-                                <rect key="frame" x="18" y="64" width="284" height="320"/>
+                                <rect key="frame" x="18" y="83" width="284" height="372"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="P7P-oq-5P5" secondAttribute="height" multiplier="71:80" id="qCB-oD-JiI"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="qCB-oD-JiI"/>
+                                    </mask>
+                                </variation>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.13725490200000001" green="0.1529411765" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.12156862745098039" green="0.090196078431372548" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="iAs-m5-LTC" secondAttribute="centerX" id="KMc-y0-jew"/>
+                            <constraint firstItem="P7P-oq-5P5" firstAttribute="top" secondItem="VeN-GS-hSh" secondAttribute="bottom" constant="72" id="KZB-PN-82v"/>
                             <constraint firstItem="P7P-oq-5P5" firstAttribute="leading" secondItem="uVD-hR-UVL" secondAttribute="leading" constant="18" id="Obi-14-ya9"/>
                             <constraint firstItem="P7P-oq-5P5" firstAttribute="top" secondItem="VeN-GS-hSh" secondAttribute="bottom" id="X9H-vD-6iJ"/>
-                            <constraint firstItem="iAs-m5-LTC" firstAttribute="top" secondItem="P7P-oq-5P5" secondAttribute="bottom" constant="24" id="eSE-6c-gta"/>
+                            <constraint firstItem="iAs-m5-LTC" firstAttribute="top" secondItem="P7P-oq-5P5" secondAttribute="bottom" constant="25" id="eSE-6c-gta"/>
                             <constraint firstAttribute="trailing" secondItem="P7P-oq-5P5" secondAttribute="trailing" constant="18" id="gjR-Te-hX1"/>
+                            <constraint firstItem="KJt-yX-TLF" firstAttribute="top" secondItem="iAs-m5-LTC" secondAttribute="bottom" constant="56" id="wsf-Bl-Ehz"/>
+                            <constraint firstItem="P7P-oq-5P5" firstAttribute="top" secondItem="VeN-GS-hSh" secondAttribute="bottom" constant="19" id="xjM-xs-085"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KZB-PN-82v"/>
+                                <exclude reference="X9H-vD-6iJ"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="yPu-eh-Cpd"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

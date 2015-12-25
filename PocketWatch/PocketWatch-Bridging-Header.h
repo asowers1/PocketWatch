@@ -3,3 +3,4 @@
 //
 
 #import "PWPocketWrapper.h"
+#import "FLXImageCache.h"

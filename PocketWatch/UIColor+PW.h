@@ -11,8 +11,12 @@
 
 @interface UIColor (PW)
 
-// Main Color Palette
+// Cool Greens Color Palette
 + (UIColor *)mojito;
 + (UIColor *)mojitoDark;
+
+// PocketWatch Icon Colors
++ (UIColor *)PWGreen;
++ (UIColor *)PWBrown;
 
 @end
