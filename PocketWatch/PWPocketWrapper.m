@@ -38,7 +38,7 @@
 - (void)getPocketData {
   NSString *apiMethod = @"get";
   PocketAPIHTTPMethod httpMethod = PocketAPIHTTPMethodGET; // usually PocketAPIHTTPMethodPOST
-  NSDictionary *arguments = nil;
+  NSDictionary *arguments = @{@"state":@"all", @"detailType":@"complete"};
   
   [[PocketAPI sharedAPI] callAPIMethod:apiMethod
                         withHTTPMethod:httpMethod
@@ -50,22 +50,61 @@
                                    NSLog(@"error: %@",error.localizedDescription);
                                  } else {
                                    // save models
-                                   [self saveModelToDefaultRealm:response];
                                    [self.delegate pocketDidGetData];
+                                   
+                                   [self saveModelToDefaultRealm:response];
+                                   
                                  }
                                }];
 }
 
 - (void)saveModelToDefaultRealm:(NSDictionary *)data {
-  //NSLog(@"data: %@",data);
+  NSLog(@"data: %@",data);
+  [[PWObjectController sharedController] deleteObjects];
+  [[PWImageController sharedController] deleteObjects];
+  [[PWVideoController sharedController] deleteObjects];
+  
   PWObjectController *objectController = [PWObjectController sharedController];
   for (NSString * item_id in data[@"list"]) {
-    PWObject *savedObject = [objectController getNewObject];
-    for (NSString *item in data[@"list"][item_id]) {
-      [savedObject setValue:data[@"list"][item_id][item] forKey:item];
+    if ([(NSString *)data[@"list"][item_id][@"has_image"] intValue] >= 1) {
+      for (NSDictionary *imageData in data[@"list"][item_id][@"images"]) {
+        PWImage *imageObject = [[PWImageController sharedController] getNewImage];
+        for (id item in imageData) {
+          if ([item isMemberOfClass:[NSString class]]) {
+            if ([PWImage respondsToSelector:NSSelectorFromString(item)]) {
+              [imageObject setValue:data[@"list"][item_id][item] forKey:item];
+            }
+          }
+        }
+        [[PWImageController sharedController] addObject:imageObject];
+      }
     }
-    [objectController addObject:savedObject];
+    if ([(NSString *)data[@"list"][item_id][@"has_video"] intValue] >= 1) {
+      for (NSDictionary *videoData in data[@"list"][item_id][@"videos"]) {
+        PWVideo *videoObject = [[PWVideoController sharedController] getNewVideo];
+        for (id item in videoData) {
+          if ([item isMemberOfClass:[NSString class]]) {
+            if ([PWVideo respondsToSelector:NSSelectorFromString(item)]) {
+              [videoObject setValue:data[@"list"][item_id][item] forKey:item];
+            }
+          }
+        }
+        [[PWVideoController sharedController] addObject:videoObject];
+      }
+    }
+    PWObject *savedObject = [objectController getNewObject];
+    for (id item in data[@"list"][item_id]) {
+      if ([item isMemberOfClass:[NSString class]]) {
+        if ([savedObject respondsToSelector:NSSelectorFromString(item)]) {
+          [savedObject setValue:data[@"list"][item_id][item] forKey:item];
+          [objectController addObject:savedObject];
+        }
+      }
+    }
+    [[PWObjectController sharedController] addObject:savedObject];
+    
   }
+  
   [self.delegate pocketDidSaveData];
 }
 

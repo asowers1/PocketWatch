@@ -50,6 +50,7 @@ class PWShuffleViewController: UIViewController, PWPocketWrapperDelegate {
   
   func pocketDidSaveData() {
     // did save new data - this is where we should reload data
+    
   }
 }
 
@@ -58,6 +59,7 @@ extension PWShuffleViewController: KolodaViewDelegate {
   
   func koloda(koloda: KolodaView, didSwipedCardAtIndex index: UInt, inDirection direction: SwipeResultDirection) {
     //Example: loading more cards
+    print("Direction \(direction)")
     if index >= 3 {
       numberOfCards = UInt(self.objectData.count)
       kolodaView.reloadData()
@@ -85,7 +87,11 @@ extension PWShuffleViewController: KolodaViewDataSource {
     let view = NSBundle.mainBundle().loadNibNamed("PWKolodaView", owner: self, options: nil)[0] as! PWKolodaView
     
     let object: PWObject = self.objectData[Int(index)] as PWObject
-      
+    
+    if object.has_image >= 1 {
+      let images = PWImageController.sharedController.getImageObjects(object.item_id)
+      print("images: \(images)")
+    }
     view.setTitle(object.resolved_title)
     return view
   }

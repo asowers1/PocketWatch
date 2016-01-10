@@ -42,6 +42,11 @@ class PWImageController: NSObject {
     }
   }
   
+  func getImageObjects(item_id: Int) -> Results<PWImage> {
+    let realm = try! Realm()
+    return realm.objects(PWImage).filter("item_id == \(item_id)")
+  }
+  
   // delete a certain image by its pocket item_id
   func deleteImage(item_id: Int) {
     let realm = try! Realm()

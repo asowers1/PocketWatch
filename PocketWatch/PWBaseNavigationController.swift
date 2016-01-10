@@ -18,7 +18,9 @@ class PWBaseNavigationController: UINavigationController, PWPocketWrapperDelegat
     let allObjects = objectController.allObjects
     if allObjects.count > 0 {
       
+      self.pocketWrapper.getPocketData()
     } else {
+      
       self.pocketWrapper.getPocketData()
     }
     self.pocketWrapper.delegate = self

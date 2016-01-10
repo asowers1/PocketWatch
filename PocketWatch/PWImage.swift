@@ -19,3 +19,4 @@ class PWImage: Object {
   dynamic var credit: String = ""
   
 }
+
