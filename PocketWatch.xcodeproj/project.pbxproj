@@ -354,7 +354,7 @@
 		66908A501C08066B00B84D3C /* Mark Simonson - Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mark Simonson - Proxima Nova Thin.otf"; sourceTree = "<group>"; };
 		66908AD01C08241900B84D3C /* UIColor+PW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PW.h"; sourceTree = "<group>"; };
 		66908AD11C08241900B84D3C /* UIColor+PW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PW.m"; sourceTree = "<group>"; };
-		66908E7C1C08CE0800B84D3C /* PocketWatch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketWatch-Bridging-Header.h"; sourceTree = "<group>"; };
+		66908E7C1C08CE0800B84D3C /* PocketWatch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PocketWatch-Bridging-Header.h"; path = "PocketWatch/PocketWatch-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		66908E7D1C08CE0900B84D3C /* PWUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWUser.swift; sourceTree = "<group>"; };
 		66908E7F1C08CE8300B84D3C /* PWObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWObject.swift; sourceTree = "<group>"; };
 		66908E811C09160900B84D3C /* PWUserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWUserController.swift; sourceTree = "<group>"; };
@@ -1290,7 +1290,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.PocketWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/andrew/Box/PocketWatch/PocketWatch/PocketWatch-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "PocketWatch/PocketWatch-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -1311,7 +1311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.PocketWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/andrew/Box/PocketWatch/PocketWatch/PocketWatch-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "PocketWatch/PocketWatch-Bridging-Header.h";
 			};
 			name = Release;
 		};
