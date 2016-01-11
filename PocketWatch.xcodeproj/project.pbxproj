@@ -420,12 +420,12 @@
 		4927120C1BB73A990080997C /* PocketWatch */ = {
 			isa = PBXGroup;
 			children = (
+				49D5FBF31BBB8552007B21F9 /* Resources */,
 				66908ACF1C0823EA00B84D3C /* Categories */,
 				49D5FBF71BBB8588007B21F9 /* ViewControllers */,
 				49D5FBF61BBB857F007B21F9 /* Views */,
 				49D5FBF51BBB8577007B21F9 /* Model Controllers */,
 				49D5FBF41BBB856D007B21F9 /* Models */,
-				49D5FBF31BBB8552007B21F9 /* Resources */,
 				4927120D1BB73A990080997C /* Supporting Files */,
 			);
 			path = PocketWatch;

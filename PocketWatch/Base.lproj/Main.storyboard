@@ -91,6 +91,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="ehq-Ge-r2x" kind="relationship" relationship="viewControllers" id="5BL-I1-seo"/>
+                        <segue destination="9GU-GO-yPO" kind="relationship" relationship="viewControllers" id="96n-Xi-SM1"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2c1-dX-Vwa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -106,14 +107,14 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="9GU-GO-yPO" kind="relationship" relationship="rootViewController" id="xiC-Q3-by1"/>
+                        <segue destination="RXL-3U-ck6" kind="relationship" relationship="rootViewController" id="lkL-sL-Ahz"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WwW-AI-h7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="333" y="379"/>
         </scene>
-        <!--Shuffle View Controller-->
+        <!--Item-->
         <scene sceneID="h0v-am-7EU">
             <objects>
                 <viewController id="9GU-GO-yPO" customClass="PWShuffleViewController" customModule="PocketWatch" customModuleProvider="target" sceneMemberID="viewController">
@@ -125,7 +126,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iAs-m5-LTC">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iAs-m5-LTC">
                                 <rect key="frame" x="100" y="480" width="120" height="32"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8t-LX-6w4">
@@ -155,7 +156,7 @@
                                     <constraint firstAttribute="width" constant="120" id="Dzo-8A-byU"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P7P-oq-5P5" customClass="KolodaView" customModule="Koloda">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P7P-oq-5P5" customClass="KolodaView" customModule="Koloda">
                                 <rect key="frame" x="18" y="83" width="284" height="372"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -186,6 +187,7 @@
                             </mask>
                         </variation>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="WdS-jA-lxT"/>
                     <navigationItem key="navigationItem" id="yPu-eh-Cpd"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
@@ -194,7 +196,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9O6-M5-HWh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="891" y="1156"/>
+            <point key="canvasLocation" x="1699" y="836"/>
         </scene>
     </scenes>
     <resources>
